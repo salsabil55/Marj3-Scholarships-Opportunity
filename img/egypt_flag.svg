@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="29" height="20" viewBox="0 0 29 20">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Mask" width="29" height="20" rx="1.38" fill="#d8d8d8"/>
+    </clipPath>
+  </defs>
+  <g id="egypt_flag" transform="translate(-725 -183)">
+    <rect id="Mask-2" data-name="Mask" width="29" height="20" rx="1.38" transform="translate(725 183)" fill="#d8d8d8"/>
+    <g id="icons8-egypt" transform="translate(725 183)" clip-path="url(#clip-path)">
+      <g id="icons8-egypt-2" data-name="icons8-egypt">
+        <rect id="Rectangle-path" width="29.504" height="6.667" transform="translate(0 13.333)" fill="#424242"/>
+        <rect id="Rectangle-path-2" data-name="Rectangle-path" width="29.504" height="6.667" transform="translate(0 6.667)" fill="#eceff1"/>
+        <rect id="Rectangle-path-3" data-name="Rectangle-path" width="29.504" height="6.667" fill="#ff3d00"/>
+        <g id="Group" transform="translate(12.07 7.333)">
+          <path id="Shape" d="M5.364,3.333A.668.668,0,0,1,4.694,4L2.682,2.667.671,4A.668.668,0,0,1,0,3.333V.667A.668.668,0,0,1,.671,0H4.694a.668.668,0,0,1,.671.667Z" transform="translate(0 1.333)" fill="#ffb300"/>
+          <path id="Shape-2" data-name="Shape" d="M1.341,2a.668.668,0,0,1-.671.667h0A.668.668,0,0,1,0,2V.667A.668.668,0,0,1,.671,0h0a.668.668,0,0,1,.671.667Z" transform="translate(2.012)" fill="#ffb300"/>
+          <path id="Shape-3" data-name="Shape" d="M0,1.333H1.341L.671,0Z" transform="translate(2.012 4)" fill="#ffb300"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="22.045" viewBox="0 0 20 22.045">
+  <g id="articles" transform="translate(0 0.045)">
+    <g id="Rectangle_32" data-name="Rectangle 32" transform="translate(0 1.294)" fill="#fff" stroke="#121e30" stroke-miterlimit="10" stroke-width="0.79">
+      <rect width="20" height="20.706" rx="3.385" stroke="none"/>
+      <rect x="0.395" y="0.395" width="19.21" height="19.916" rx="2.99" fill="none"/>
+    </g>
+    <g id="Rectangle_32-2" data-name="Rectangle 32" transform="translate(0 1.294)" fill="#b8bfcc" stroke="#121e30" stroke-miterlimit="10" stroke-width="0.79">
+      <path d="M3.385,0H16.615A3.385,3.385,0,0,1,20,3.385v4.38a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V3.385A3.385,3.385,0,0,1,3.385,0Z" stroke="none"/>
+      <path d="M3.385.395H16.615a2.99,2.99,0,0,1,2.99,2.99v3.59a.395.395,0,0,1-.395.395H.79a.395.395,0,0,1-.395-.395V3.385A2.99,2.99,0,0,1,3.385.395Z" fill="none"/>
+    </g>
+    <g id="Group_11" data-name="Group 11" transform="translate(5 11.647)">
+      <path id="Path" d="M2.277,0C.706,0,0,1.371,0,3.168.073,4.892.706,6.336,2.277,6.336c1.5,0,2.3-1.3,2.3-3.168C4.576,1.514,3.92.073,2.277,0Z" transform="translate(6.25)" fill="#fff" stroke="#121e30" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="0.725"/>
+      <path id="Path-2" data-name="Path" d="M.727,0C.226,0,0,.749,0,1.731c.023.942.226,1.731.727,1.731.48,0,.735-.709.735-1.731C1.462.827,1.253.04.727,0Z" transform="translate(7.813 1.437)" fill="#121e30"/>
+      <path id="Path-3" data-name="Path" d="M2.054,0A3.127,3.127,0,0,0,.067.652L.491,1.663a2.34,2.34,0,0,1,1.295-.494c.714,0,.982.351.982.854,0,.719-.631,1.362-1.987,2.584L0,5.325v.786H4.353V4.965h-2.3l.58-.427A3.876,3.876,0,0,0,4.2,1.887,1.907,1.907,0,0,0,2.054,0Z" fill="#fff" stroke="#121e30" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="0.725"/>
+    </g>
+    <path id="Path_8_Copy_2" data-name="Path 8 Copy 2" d="M.284,1.654H3.063" transform="translate(7.566 0.066) rotate(90)" fill="none" stroke="#121e30" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="0.79"/>
+    <path id="Path_8_Copy_3" data-name="Path 8 Copy 3" d="M.284,1.654H3.063" transform="translate(16.316 0.066) rotate(90)" fill="none" stroke="#121e30" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="0.79"/>
+    <path id="Path_8_Copy" data-name="Path 8 Copy" d="M0,1.294H11.989" transform="translate(4.375 4.529)" fill="none" stroke="#121e30" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="0.79"/>
+  </g>
+</svg>

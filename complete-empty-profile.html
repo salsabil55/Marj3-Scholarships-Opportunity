@@ -1,0 +1,1432 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Marj3</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- favicon
+		============================================ -->
+    <link rel="icon" href="img/fac.png" type="image/png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/stylear.css">
+    <link rel="stylesheet" href="css/progress.css">
+    <link rel="stylesheet" href="css/minitoggle.css">
+    <link rel="stylesheet" href="css/jquery.tag-editor.css">
+    <link rel="stylesheet" href="css/test.css">
+
+
+
+</head>
+
+<body onload="myFunction()">
+    <!-- Start Header Top Area -->
+    <header id="main-header">
+        <div class="navbar header-top-area navbar-default navbar-fixed-top desktop">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7 col-md-7 col-sm-8">
+                        <div class="logo-area" style="display: inline-block;">
+                            <a class="logo-headerr" href="#"><img src="img/site_logos.svg" alt="" /></a>
+                            <ul class="nav navbar-nav notika-top-nav l-menu">
+
+                                <li class="nav-item" id="scholar-link"><a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle"><span>Scholarship<i class="fa fa-angle-down"></i></span></a>
+                                    <ul class="dropdown-menu multi-level animated slideInDown" id="scholar-menu">
+
+                                        <li class="dropdown-submenu">
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Degree Opportunities</a>
+                                            <ul class="dropdown-menu sub scnd">
+                                                <li><a href="#">IB (High School)</a></li>
+                                                <li><a href="#">Under Graduated (Bachelor)</a></li>
+                                                <li><a href="#">Masters</a></li>
+                                                <li><a href="#">PHD</a></li>
+                                                <li><a href="#">Post DOC</a></li>
+
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Fellowships</a></li>
+                                        <li class="dropdown-submenu">
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Events,Summits</a>
+                                            <ul class="dropdown-menu sub scnd">
+                                                <li><a href="#">IB (High School)</a></li>
+                                                <li><a href="#">Under Graduated (Bachelor)</a></li>
+                                                <li><a href="#">Post DOC</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Internships & Summer Traning</a></li>
+                                        <li><a href="#">Exchange Programs</a></li>
+                                        <li><a href="#">Volunteering Programs</a></li>
+                                        <li><a href="#">Summer School</a></li>
+                                        <li><a href="#">Career Development</a></li>
+                                        <li><a href="#">Accelerators for Startups</a></li>
+
+                                    </ul>
+                                </li>
+
+
+                                <li class="nav-item" id="study-link"><a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle"><span>Study Abroad<i class="fa fa-angle-down"></i></span></a>
+                                    <ul class="dropdown-menu multi-level animated slideInDown" id="study-menu">
+                                        <li class="dropdown-submenu">
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Engineering</a>
+                                            <ul class="dropdown-menu sub">
+                                                <li><a href="#">Civil Engineering</a></li>
+                                                <li><a href="#">Electronics Engineering</a></li>
+                                                <li><a href="#">Mechanical Engineering</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Arts & Design</a></li>
+                                        <li class="dropdown-submenu">
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Events,Summits</a>
+                                            <ul class="dropdown-menu sub scnd">
+                                                <li><a href="#">IB (High School)</a></li>
+                                                <li><a href="#">Under Graduated (Bachelor)</a></li>
+                                                <li><a href="#">Post DOC</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Computer Science & IT</a></li>
+                                        <li><a href="#">Health & Medicine</a></li>
+                                        <li><a href="#">Natural Science</a></li>
+                                        <li class="seperate">
+                                            <hr>
+                                        </li>
+                                        <li class="browse"><img src="img/Browse Universities.svg"><a href="#">Browse Universities</a></li>
+                                        <li class="browse"><img src="img/Browse Countries.svg"><a href="#">Browse Countries</a></li>
+
+
+                                    </ul>
+                                </li>
+
+                                <li class="nav-item" id="communit-link"><a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle"><span>Community<i class="fa fa-angle-down"></i></span></a>
+                                    <ul class="dropdown-menu multi-level communit animated slideInDown" id="communit-menu">
+                                        <li class="first-col">
+                                            <a href="#"><img src="img/menu_discussions.svg">
+                                                <h4>Discussions</h4>
+                                                <p>Ask experienced people</p>
+                                            </a>
+                                        </li>
+                                        <li class="second-col">
+                                            <a href="#"><img src="img/menu_videos.svg">
+                                                <h4>Videos</h4>
+                                                <p>Tips & Tricks about Scholars</p>
+                                            </a>
+                                        </li>
+                                        <li class="first-col menu-article">
+                                            <a href="#"> <img src="img/menu_articles.svg">
+                                                <h4>Articles</h4>
+                                                <p>All about scholars</p>
+                                            </a>
+                                        </li>
+
+                                    </ul>
+
+                                </li>
+
+
+                                <li class="nav-item" id="event-link"><a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle"><span><i class="fa fa-circle"></i><i class="fa fa-circle"></i><i class="fa fa-circle"></i></span></a>
+                                    <ul class="dropdown-menu multi-level communit animated slideInDown" id="event-menu">
+                                        <li class="first-col">
+                                            <a href="#">
+                                                <h4>Events</h4>
+                                                <p>Meet Marj3 at your city</p>
+                                            </a>
+                                        </li>
+                                        <li class="second-col">
+                                            <a href="#">
+                                                <h4>Marj3 Study Abroad</h4>
+                                                <p>see how marj3 help you</p>
+                                            </a>
+                                        </li>
+                                        <li class="first-col menu-article">
+                                            <a href="#">
+                                                <h4>Marj3 Heros</h4>
+                                                <p>people who took scholars</p>
+                                            </a>
+                                        </li>
+                                        <li class="second-col">
+                                            <a href="#"><img src="img/medal_no_badges.svg">
+                                                <h4>Leaderbroad</h4>
+                                                <p>See people's ranks</p>
+                                            </a>
+                                        </li>
+
+                                    </ul>
+                                </li>
+
+                            </ul>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-4">
+                        <div class="header-top-menu">
+                            <ul class="nav navbar-nav notika-top-nav">
+                                <li class="nav-item lng">
+                                    <a href="profilear.html" role="button" aria-expanded="false" class="nav-link"><span>العربية</span></a>
+
+                                </li>
+                                <li class="nav-item dropdown notify nc-al" id="notify-link">
+                                    <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle"><span><img src="img/notification.svg"></span></a>
+                                    <ul class="dropdown-menu notification animated slideInDown" id="notify-menu">
+                                        <i class="fa fa-sort-up"></i>
+
+                                        <li class="nav-item list title">
+                                            <h3>NOTIFICATIONS</h3>
+                                        </li>
+                                        <li class="nav-item list">
+                                            <img class="app-icon" src="https://image.flaticon.com/icons/svg/183/183338.svg">We found a new course for you<a href="#">Check it</a>
+                                            <p>3 miutes ago</p>
+                                        </li>
+                                        <li class="nav-item list">
+                                            <img class="app-icon" src="https://image.flaticon.com/icons/svg/1156/1156728.svg">You earned a verified badge<a href="#">Check it</a>
+                                            <p>3 miutes ago</p>
+                                        </li>
+                                        <li class="nav-item list">
+                                            <img class="app-icon" src="https://image.flaticon.com/icons/svg/183/183338.svg">We found a new course for you<a href="#">Check it</a>
+                                            <p>3 miutes ago</p>
+                                        </li>
+                                        <li class="nav-item list">
+                                            <img class="app-icon" src="https://image.flaticon.com/icons/svg/1156/1156728.svg">you earned a verified badge<a href="#">Check it</a>
+                                            <p>3 miutes ago</p>
+                                        </li>
+
+                                        <li class="nav-item list page">
+                                            <a href="#" class="notification-page">All Notification</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="nav-item nc-al"><a href="#" role="button" aria-expanded="false" class="nav-link"><span><img src="img/saved.svg"></span><div class="spinner4 spinner-4"></div><div class="ntd-ctn"><span>3</span></div></a>
+
+                                </li>
+
+                                <li class="nav-item notify" id="admin-link"><a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle"><span><img src="img/admin.png"></span></a>
+                                    <ul class="dropdown-menu notification profile animated slideInDown" id="admin-menu">
+                                        <i class="fa fa-sort-up"></i>
+
+                                        <li class="nav-item list">
+                                            <img class="menu-profile" src="img/user_avatar.svg">
+                                            <h3>Mohamed Moustafa</h3>
+                                            <a href="#">View My Profile</a>
+                                        </li>
+                                        <li class="nav-item page">
+                                            <p><a href="#">My Scholarship</a><span class="num">2</span></p>
+                                        </li>
+                                        <li class="nav-item list setting">
+                                            <p><a href="index.html">Settings</a></p>
+                                        </li>
+                                        <li class="nav-item list setting">
+                                            <p><a href="index.html">Log Out</a></p>
+                                        </li>
+
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- End Header Top Area -->
+
+    <!-- mobile menu -->
+
+    <div class="header-top-area mobile">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="logo-area" style="display: inline-block;">
+                        <a href="#"><img src="img/site_logos.svg" alt="" /></a>
+                    </div>
+                    <div class="header-top-menu">
+                        <ul class="nav navbar-nav notika-top-nav">
+                            <li class="nav-item lng">
+                                <a href="profilear.html" role="button" aria-expanded="false" class="nav-link"><span>العربية</span></a>
+
+                            </li>
+                            <li class="nav-item dropdown notify nc-al" id="notify-link">
+                                <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle"><span><img src="img/notification.svg"></span></a>
+                                <ul class="dropdown-menu notification animated zoomIn" id="notify-menu">
+                                    <i class="fa fa-sort-up"></i>
+
+                                    <li class="nav-item list title">
+                                        <h3>NOTIFICATIONS</h3>
+                                    </li>
+                                    <li class="nav-item list">
+                                        <img class="app-icon" src="https://image.flaticon.com/icons/svg/183/183338.svg">We found a new course for you<a href="#">Check it</a>
+                                        <p>3 miutes ago</p>
+                                    </li>
+                                    <li class="nav-item list">
+                                        <img class="app-icon" src="https://image.flaticon.com/icons/svg/1156/1156728.svg">You earned a verified badge<a href="#">Check it</a>
+                                        <p>3 miutes ago</p>
+                                    </li>
+                                    <li class="nav-item list">
+                                        <img class="app-icon" src="https://image.flaticon.com/icons/svg/183/183338.svg">We found a new course for you<a href="#">Check it</a>
+                                        <p>3 miutes ago</p>
+                                    </li>
+                                    <li class="nav-item list">
+                                        <img class="app-icon" src="https://image.flaticon.com/icons/svg/1156/1156728.svg">you earned a verified badge<a href="#">Check it</a>
+                                        <p>3 miutes ago</p>
+                                    </li>
+
+                                    <li class="nav-item list page">
+                                        <a href="#" class="notification-page">All Notification</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item nc-al"><a href="#" role="button" aria-expanded="false" class="nav-link"><span><img src="img/saved.svg"></span><div class="spinner4 spinner-4"></div><div class="ntd-ctn"><span>3</span></div></a>
+
+                            </li>
+                            <li class="nav-item open-mob-menu plus-btn"><a href="#" role="button" aria-expanded="false" class="nav-link"><span><i class="fa fa-circle"></i><i class="fa fa-circle"></i><i class="fa fa-circle"></i></span></a>
+                                <button class="click-open"></button>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+
+    <!-- mobile menu contebt -->
+
+
+    <div class="menu-container">
+
+        <div class="menu-sliders"></div>
+        <div class="menu-sliders"></div>
+        <div class="menu-sliders"></div>
+        <div class="menu mob">
+            <ul class="mobile-menu animated zoomIn" x-placement="bottom-start">
+                <li>
+                    <img src="img/user_avatar.svg">
+                </li>
+                <li>
+                    <h3>Mohamed Moustafa</h3>
+                </li>
+                <li>
+                    <a href="#" class="view-profile">View My Profile</a>
+                </li>
+                <li class="animated fadeIn delay-2s">
+                    <hr>
+                </li>
+                <li>
+                    <a href="#">My Scholarships</a><span class="num">2</span>
+                </li>
+                <li>
+                    <a href="#">Settings</a>
+                </li>
+                <li>
+                    <a href="index.html">Log Out</a>
+                </li>
+                <li class="animated fadeIn delay-2s">
+                    <hr>
+                </li>
+            </ul>
+            <div id="accordians">
+                <ul class="accordion-sub">
+                    <li class="scholar">
+                        <a href="#">Scholarships</a>
+                        <ul class="scholar-sub">
+                            <li>
+                                <a href="#">Degree Opportunities</a>
+                                <ul class="degree-sub">
+                                    <li><a href="#">IB(High School)</a></li>
+                                    <li><a href="#">Under Graduated (Bachelor)</a></li>
+                                    <li><a href="#">Masters</a></li>
+                                    <li><a href="#">PHD</a></li>
+                                    <li><a href="#">Post DOC</a></li>
+
+                                </ul>
+                            </li>
+                            <li><a href="#">Fellowships</a></li>
+                            <li>
+                                <a href="#">Events,Summits</a>
+                                <ul class="event-sub">
+                                    <li><a href="#">IB(High School)</a></li>
+                                    <li><a href="#">Under Graduated (Bachelor)</a></li>
+                                    <li><a href="#">Masters</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Internships & Summer Traning</a></li>
+                            <li><a href="#">Exchange Programs</a></li>
+                            <li><a href="#">Volunteering Programs</a></li>
+                            <li><a href="#">Summer School</a></li>
+                            <li><a href="#">Career Development</a></li>
+                            <li><a href="#">Accelerators for Startups</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="study">
+                        <a href="#">Study Abroad</a>
+                        <ul class="scholar-sub">
+                            <li>
+                                <a href="#">Engineering</a>
+                                <ul class="degree-sub">
+                                    <li><a href="#">Civil Engineering</a></li>
+                                    <li><a href="#">Electronics Engineering</a></li>
+                                    <li><a href="#">Mechnical Engineering</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Art & Designs</a></li>
+                            <li>
+                                <a href="#">Events,Summits</a>
+                                <ul class="event-sub">
+                                    <li><a href="#">IB(High School)</a></li>
+                                    <li><a href="#">Under Graduated (Bachelor)</a></li>
+                                    <li><a href="#">Masters</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Computer Science & IT</a></li>
+                            <li><a href="#">Health & Medicine</a></li>
+                            <li><a href="#">Volunteering Programs</a></li>
+                            <li><a href="#">Natural Science</a></li>
+                            <li><a href="#">Browse Universities</a></li>
+                            <li><a href="#">Browse Countries</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="community">
+                        <a href="#">Community</a>
+                        <ul class="scholar-sub">
+
+                            <li><a href="#">Discussions</a></li>
+                            <li><a href="#">Videos</a></li>
+                            <li><a href="#">Articles</a></li>
+
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <!-- End Navbar -->
+
+    <!-- start profile  -->
+
+    <div class="profile-tabs complete">
+
+        <div class="">
+
+
+            <!-- Tab panes -->
+
+            <div class="tab-content">
+                <!-- start about -->
+                <div id="about" class="container tab-pane active animated fadeIn">
+                    <div class="profile-about">
+                        <div class="container">
+                            <div class="row">
+                                <h3 class="complete-title">Your Profile</h3>
+                                <div class="col-md-4">
+                                    <!-- Start basic info -->
+                                    <ul class="nav nav-stacked" id="accordion">
+                                        <li class="panel accordion-header">
+
+                                            <ul id="firstLink" class="collapse in">
+                                                <div class="card info-block">
+                                                    <div id="progress" data-dimension="150" data-text="0%" data-fontsize="25" data-percent="0" data-width="15" data-bordersize="15" data-animationstep="2"></div>
+
+                                                    <h5>Your profile is 0% complete</h5>
+                                                    <p>Save your changes to update percentage</p>
+                                                </div>
+                                            </ul>
+                                        </li>
+
+                                    </ul>
+                                </div>
+
+
+                                <div class="col-md-8">
+                                    <dl class="accordion acco-about">
+                                        <!-- start education -->
+                                        <div>
+                                            <dt class="educa-about"><h3 class="title-pg">Your Main info</h3></dt>
+                                            <dd class="educa-about1 first">
+                                                <div class="avatar-upload">
+                                                    <div class="avatar-edit">
+                                                        <input type='file' id="imageUpload" accept=".png, .jpg, .jpeg" />
+                                                        <label for="imageUpload"></label>
+                                                    </div>
+                                                    <div class="avatar-preview">
+                                                        <div id="imagePreview">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <label>First Name</label>
+                                                        <input type="text" class="form-control complete-input" name="text_first">
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <label>Last Name</label>
+                                                        <input type="text" class="form-control complete-input" name="text_last">
+                                                    </div>
+                                                </div>
+                                            </dd>
+                                        </div>
+                                        <!-- start Experience -->
+                                        <dt class="educa-about"><a class="decua-headn info-acc" href="#"><h3 class="title-pg"> Your Basic info</h3></a></dt>
+                                        <dd class="educa-about1 info-acc-block">
+                                            <div class="row  educa-row">
+
+                                                <div class="col-md-6 col-s-12">
+                                                    <label for="nationality">Nationality </label>
+                                                    <select class="form-control form-control-lg" name="text_test" id="nationality" required>
+                                                                                  <option value="Egyption">Egyption</option>
+                                                                                  <option value="American">American</option>
+                                                                                  <option value="Chiness">Chiness</option>
+                                                                                  <option value="Japanes">Japanes</option>
+                                                                                  <option value="German">German</option>
+                                                                            
+                                                                                </select>
+                                                </div>
+                                                <div class="col-md-6 col-s-12">
+                                                    <label for="location">Your Location </label>
+                                                    <select class="form-control form-control-lg" name="text_test" id="location" required>
+                                                                                                                              <option value="Palestine">Palestine</option>
+                                                                                                                              <option value="America">America</option>
+                                                                                                                              <option value="China">China</option>
+                                                                                                                              <option value="Egypt">Egypt</option>
+                                                                                                                        
+                                                                                                                            </select>
+                                                </div>
+
+
+                                            </div>
+
+
+                                            <div class="row educa-row">
+                                                <div class="col-md-6">
+                                                    <label class="gender">Gender</label>
+                                                    <div class="radio">
+                                                        <input id="radio-1" name="text_gender" type="radio" checked>
+                                                        <label for="radio-1" class="radio-label">Male</label>
+                                                    </div>
+
+                                                    <div class="radio">
+                                                        <input id="radio-2" name="text_gender" type="radio">
+                                                        <label for="radio-2" class="radio-label">Female</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row educa-row date-birth">
+                                                <div class="col-md-4 col-sm-12">
+                                                    <label for="day">Date of Birth</label>
+
+                                                    <input id="day" class="form-control input-group-lg" type="text" name="text_day" placeholder="Day" />
+
+                                                </div>
+
+                                                <div class="col-md-4 col-sm-12">
+                                                    <label class="visible-h">date</label>
+                                                    <input id="month" class="form-control input-group-lg" type="montht" name="text_month" placeholder="Month" />
+                                                </div>
+
+                                                <div class="col-md-4 col-sm-12">
+                                                    <label class="visible-h">date</label>
+                                                    <input id="year" class="form-control input-group-lg" type="text" name="text_year" placeholder="Year" />
+                                                </div>
+                                            </div>
+
+                                            <div class="row educa-row privacy-age">
+                                                <div class="col-md-6">
+                                                    <div class="check-row study age">
+                                                        <input type="checkbox" id="check-nine" class="hidden" name="text_still_student" />
+
+                                                        <label class="check-label" for="check-nine">
+                                                                                                                    
+                                                                                                                          <div class="check-box">
+                                                                                                                            <i class="fa fa-square-o check-off"></i><i class="fa fa-check check-on"></i>
+                                                                                                                          </div>    
+                                                                                                                    
+                                                                                                                         <h5>Hide My age from visitors</h5>
+                                                                                                                         <p>No one can see your age, but we'll use it to pick scholarships for your age
+                                                                                                                        </label>
+                                                    </div>
+                                                </div>
+
+                                        </dd>
+
+                                        <!-- start Languages -->
+                                        <dt class="educa-about"><a class="decua-headn edu-acc" href="#"><h3 class="title-pg">Education Experiences you have</h3></a><button class="btn-about btn-plus-media2 add-edu complete" data-toggle="modal" data-target="#edu-modal">+ Add New</button><button class="btn-about btn-plus-media add-edu complete" data-toggle="modal" data-target="#edu-modal">+</button></dt>
+                                        <dd class="educa-about1 langua-about edu-acc-block">
+                                            <div class="row">
+                                                <div class="complete-block">
+                                                    <img src="img/edit_profile_no_education.svg">
+                                                    <p>You haven't added any education experiences.Add New Now!</p>
+                                                </div>
+                                                <div class="switch-wrapper">
+
+                                                    <fieldset class="demo">
+                                                        <div>
+                                                            <div class="toggle"></div>
+                                                            <h3 class="result">
+                                                                <div class="switch-block">
+                                                                    <h5>Make my education Public</h5>
+                                                                    <p>Anyone visits your profile can see your education details(but your score is private)</p>
+                                                                </div>
+                                                                <div class="switch-block private hidden">
+                                                                    <h5>Make my education Private</h5>
+                                                                    <p>Noone visit your profile can seeyour education details</p>
+                                                                </div>
+                                                            </h3>
+                                                        </div>
+                                                    </fieldset>
+
+                                                    <div class="overlay"></div>
+                                                </div>
+
+                                            </div>
+
+                                        </dd>
+
+                                        <!-- start Certificates -->
+                                        <dt class="educa-about"><a class="decua-headn work-acc" href="#"><h3 class="title-pg">Work Experience you have</h3></a><button class="btn-about btn-plus-media2 add-work complete" data-toggle="modal" data-target="#work-modal">+ Add New</button><button class="btn-about btn-plus-media add-work complete" data-toggle="modal" data-target="#work-modal">+</button></dt>
+                                        <dd class="educa-about1 langua-about work-acc-block">
+                                            <div class="row">
+                                                <div class="complete-block work">
+                                                    <img src="img/edit_profile_no_work.svg">
+                                                    <p>You haven't added any work experiences.Add New Now!</p>
+                                                    <div class="check-row study age">
+                                                        <input type="checkbox" id="check-ten" class="hidden" name="text_no_experience" />
+
+                                                        <label class="check-label" for="check-ten">
+                                                                                        
+                                                            <div class="check-box">
+                                                                   <i class="fa fa-square-o check-off"></i><i class="fa fa-check check-on"></i>
+                                                                    </div>    
+                                                                                        
+                                                                     <p>I don't have any work experience
+                                                                         </label>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+
+                                        </dd>
+                                        <!-- start Interests -->
+                                        <dt class="educa-about"><a class="decua-headn lang-acc" href="#"><h3 class="title-pg">Languages You Know</h3></a><button class="btn-about btn-plus-media2 add-lang complete" data-toggle="modal" data-target="#lang-modal">+ Add New</button><button class="btn-about btn-plus-media add-lang complete" data-toggle="modal" data-target="#lang-modal">+</button></dt>
+                                        <dd class="educa-about1 inter-about lang-acc-block">
+                                            <div class="row complete-lng">
+
+                                                <div class="col-md-8">
+                                                    <input type="text" class="form-control" name="text_lng" placeholder="English(V.Good)">
+                                                    <input type="text" class="form-control" name="text_lng" placeholder="Arabic(Native">
+
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <div>
+                                                        <button class="edit-lang fancy-lng open" type=""><img src="img/edit_university.svg" alt=""></button>
+                                                        <button class="fancy-delete open" type=""><img src="img/delete_record.svg" alt=""></button>
+                                                    </div>
+                                                    <div>
+                                                        <button class="edit-lang fancy-lng open" type=""><img src="img/edit_university.svg" alt=""></button>
+                                                        <button class="fancy-delete open" type=""><img src="img/delete_record.svg" alt=""></button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="switch-wrapper">
+
+                                                    <fieldset class="demo">
+                                                        <div>
+                                                            <div class="toggle"></div>
+                                                            <h3 class="result">
+                                                                <div class="switch-block switch-certifi">
+                                                                    <h5>Make my Languages Public</h5>
+                                                                    <p>Anyone visits your profile can see your Languages</p>
+                                                                </div>
+                                                                <div class="switch-block private hidden">
+                                                                    <h5>Make my Languages Private</h5>
+                                                                    <p>Noone visit your profile can see your Languages</p>
+                                                                </div>
+                                                            </h3>
+                                                        </div>
+                                                    </fieldset>
+
+                                                    <div class="overlay"></div>
+                                                </div>
+                                            </div>
+                                        </dd>
+                                        <!-- start tests -->
+                                        <dt class="educa-about"><a class="decua-headn cer-acc" href="#"><h3 class="title-pg">Tests / Certificate you have</h3></a><button class="btn-about btn-plus-media2 add-test complete" data-toggle="modal" data-target="#test-modal">+ Add New</button><button class="btn-about btn-plus-media add-test complete" data-toggle="modal" data-target="#test-modal">+</button></dt>
+                                        <dd class="educa-about1 Scholar-about cer-acc-block">
+                                            <div class="row complete-lng">
+
+                                                <div class="col-md-8">
+                                                    <input type="text" class="form-control" name="text_lng" placeholder="TOFEL-IBT(100/120)">
+                                                    <input type="text" class="form-control" name="text_lng" placeholder="TOFEL-IBT(500/700">
+
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <div>
+                                                        <button class="edit-lang fancy-certi open" type=""><img src="img/edit_university.svg" alt=""></button>
+                                                        <button class="fancy-delete open" type=""><img src="img/delete_record.svg" alt=""></button>
+                                                    </div>
+                                                    <div>
+                                                        <button class="edit-lang fancy-certi open" type=""><img src="img/edit_university.svg" alt=""></button>
+                                                        <button class="fancy-delete open" type=""><img src="img/delete_record.svg" alt=""></button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="switch-wrapper">
+
+                                                    <fieldset class="demo">
+                                                        <div>
+                                                            <div class="toggle"></div>
+                                                            <h3 class="result">
+                                                                <div class="switch-block switch-certifi">
+                                                                    <h5>Make my Test/Certificate Public</h5>
+                                                                    <p>Anyone visits your profile can see your tests certificate</p>
+                                                                </div>
+                                                                <div class="switch-block private hidden">
+                                                                    <h5>Make my Test/Certificate Private</h5>
+                                                                    <p>Noone visit your profile can see your tests certificate</p>
+                                                                </div>
+                                                            </h3>
+                                                        </div>
+                                                    </fieldset>
+
+                                                    <div class="overlay"></div>
+                                                </div>
+                                            </div>
+                                        </dd>
+
+                                        <!-- start interest -->
+                                        <!-- start Interests -->
+                                        <dt class="educa-about"><a class="decua-headn iterest-acc" href="#"><h3 class="title-pg">Your Interests</h3></a></dt>
+                                        <dd class="educa-about1 inter-about interest-acc-block">
+                                            <div class="row complete-lng">
+                                                <label for="hero-demo">Opportunities types</label>
+                                                <div>
+                                                    <div style="padding :0 7px 0 5px;max-width:900px;margin:auto;margin-top: 15px;
+                                ">
+                                                        <textarea id="hero-demo" name="text_interest">Computer Science,Human Computer Interaction, Management ,Interior Design
+                                        </textarea>
+                                                    </div>
+                                                </div>
+
+
+                                                <label for="special">Specializations</label>
+                                                <input type="text" class="form-control complete-input" name="text_special" placeholder="example: Computer science">
+                                                <label for="special">Countries</label>
+                                                <input type="text" class="form-control complete-input" name="text_special" placeholder="example: United Kingdom">
+                                            </div>
+                                            <div class="row">
+                                                <div class="switch-wrapper">
+
+                                                    <fieldset class="demo">
+                                                        <div>
+                                                            <div class="toggle"></div>
+                                                            <h3 class="result">
+                                                                <div class="switch-block switch-interest">
+                                                                    <h5>Make my Interests Public</h5>
+                                                                    <p>Anyone visits your profile can see your interests</p>
+                                                                </div>
+                                                                <div class="switch-block private hidden">
+                                                                    <h5>Make my Interests Private</h5>
+                                                                    <p>Noone visit your profile can see your interests</p>
+                                                                </div>
+                                                            </h3>
+                                                        </div>
+                                                    </fieldset>
+
+                                                    <div class="overlay"></div>
+                                                </div>
+                                            </div>
+                                        </dd>
+
+                                        <!-- start Experience -->
+                                        <dt class="educa-about"><a class="decua-headn additional-acc" href="#"><h3 class="title-pg">Additional Info</h3></a></dt>
+                                        <dd class="educa-about1 additional-acc-block">
+                                            <div class="row  educa-row">
+                                                <label class="gender">Are You Founder/Co-Founder of Startup/Project/NGO?</label>
+                                                <div class="radio yes">
+                                                    <input id="radio-5" name="text_yes" type="radio" checked>
+                                                    <label for="radio-5" class="radio-label">Yes</label>
+                                                </div>
+                                                <div class="radio">
+                                                    <input id="radio-6" name="text_yes" type="radio">
+                                                    <label for="radio-6" class="radio-label">No</label>
+                                                </div>
+                                            </div>
+                                            <br>
+                                            <div class="row  educa-row">
+                                                <label class="gender">Do you have Startup/Project/NGO?</label>
+                                                <div class="radio yes">
+                                                    <input id="radio-3" name="text_no" type="radio" checked>
+                                                    <label for="radio-3" class="radio-label">Yes</label>
+                                                </div>
+                                                <div class="radio">
+                                                    <input id="radio-4" name="text_no" type="radio">
+                                                    <label for="radio-4" class="radio-label">No</label>
+                                                </div>
+                                            </div>
+
+                                        </dd>
+
+                                        <!-- start Experience -->
+                                        <dt class="educa-about"><a class="decua-headn scholar-acc" href="#"><h3 class="title-pg">Special Needs</h3></a></dt>
+                                        <dd class="educa-about1 scholar-acc-block">
+                                            <div class="row  educa-row">
+                                                <label class="gender">Do you belog to any minority/ethic group?</label>
+                                                <div class="radio yes">
+                                                    <input id="radio-9" name="text_yes" type="radio" checked>
+                                                    <label for="radio-9" class="radio-label">Yes</label>
+                                                </div>
+                                                <div class="radio">
+                                                    <input id="radio-10" name="text_yes" type="radio">
+                                                    <label for="radio-10" class="radio-label">No</label>
+                                                </div>
+                                            </div>
+                                            <br>
+                                            <div class="row  educa-row">
+                                                <label class="gender">Do you any Disability?</label>
+                                                <div class="radio yes">
+                                                    <input id="radio-7" name="text_disability" type="radio" checked>
+                                                    <label for="radio-7" class="radio-label">Yes</label>
+                                                </div>
+                                                <div class="radio">
+                                                    <input id="radio-8" name="text_disability" type="radio">
+                                                    <label for="radio-8" class="radio-label">No</label>
+                                                </div>
+                                            </div>
+
+                                        </dd>
+
+                                    </dl>
+                                    <div class="save-form">
+                                        <button class="btn block">Save Changes</button>
+                                        <button class="btn block discard">Discard Changes</button>
+
+                                    </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+                <!-- End about -->
+
+
+            </div>
+        </div>
+
+
+    </div>
+
+    <!-- End profile  -->
+
+
+    <!-- model-->
+
+    <!-- education model -->
+    <div class="modal fade" role="dialog" id="edu-modal">
+        <div class="modal-dialog">
+            <div class="modal-content modal-inset">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h3>Education</h3>
+                </div>
+                <div class="modal-body">
+                    <label>School/University Name <span class="red">*</span></label>
+                    <input type="text" class="form-control" name="text_school_name" required>
+                    <label>Degree Level <span class="red">*</span></label>
+                    <input type="text" class="form-control" name="text_degree" required>
+                    <label>Field of Study</label>
+                    <input type="text" class="form-control" name="text_degree">
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label for="validation05">Grade Type:</label>
+                            <select class="form-control form-control-lg" name="text_grade" id="validation05" onchange="ChangecatList()" required>
+                                  <option value="Perecentage">Perecentage</option>
+                                  <option value="Points">Points</option>
+                                  <option value="GPA">GPA</option>
+                             
+                                </select>
+
+                        </div>
+                        <div class="col-md-6 mb-3 score">
+                            <label for="validationCustom04">Score(No one can see your score)</label>
+                            <input type="text" class="form-control" name="text_score" placeholder="Enter Your Score"><span class="percentege">100%</span>
+
+                        </div>
+                        <div class="col-md-6 mb-3 points">
+                            <label for="validationCustom05">Score(No one can see your score)</label>
+                            <input type="text" class="form-control" name="text_points" placeholder="Enter Your Score"><span class="points">4.0</span>
+                        </div>
+                    </div>
+                    <!-- year -->
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label for="validationCustom03">From Year:</label>
+                            <select class="form-control form-control-lg" name="text_year" id="year" onchange="ChangecatList()" required>
+                                      <option value="2019">2019</option>
+                                      <option value="2018">2018</option>
+                                      <option value="2017">2017</option>
+                                      <option value="2016">2016</option>
+                                      <option value="2015">2015</option>
+                                      <option value="2014">2014</option>
+                                      <option value="2013">2013</option>
+
+                                    </select>
+
+                        </div>
+                        <div class="col-md-6 mb-3 years">
+                            <label for="validationCustom04">To Year</label>
+                            <select class="form-control form-control-lg" name="text_year" id="year2" onchange="ChangecatList()" required>
+                                    <!-- <option value="">Choose... </option> -->
+                                    <option value="2019">2019</option>
+                                    <option value="2018">2018</option>
+                                    <option value="2017">2017</option>
+                                    <option value="2016">2016</option>
+                                    <option value="2015">2015</option>
+                                    <option value="2014">2014</option>
+                                    <option value="2013">2013</option>
+                                    
+                                    
+                                    
+                               
+                                  </select>
+                        </div>
+
+                    </div>
+                    <!-- check -->
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+
+                        </div>
+                        <div class="col-md-6 mb-3 checks">
+                            <div class="check-row study">
+                                <input type="checkbox" id="check-four" class="hidden" name="text_still_student" />
+
+                                <label class="check-label" for="check-four">
+                                                                
+                                                                      <div class="check-box">
+                                                                        <i class="fa fa-square-o check-off"></i><i class="fa fa-check check-on"></i>
+                                                                      </div>    
+                                                                
+                                                                      I currently study here
+                                                                    </label>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="modal-bottom"> <button class="btn" name="btn-model">Save Change</button>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+    <div class="modal-overlay"></div>
+
+    <!-- delete education model -->
+    <div class="modal fade delete-frame" role="dialog" id="delete-edu-modal">
+        <div class="modal-dialog">
+            <div class="modal-content modal-inset">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <h4>Are You Sure you want Delete this from your profile?</h4>
+                    <div class="modal-bottom close"> <button class="btn red" name="btn-model" type="submit" value="submit">Delete</button>
+                        <button class="btn" name="btn-model" type="submit" value="submit" data-dismiss="modal">Cancel</button></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-overlay"></div>
+
+    <!-- work model -->
+    <div class="modal fade" role="dialog" id="work-modal">
+        <div class="modal-dialog">
+            <div class="modal-content modal-inset">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h3>Work</h3>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <label for="work-selection">Job Title <span class="red">*</span></label>
+                        <select class="form-control form-control-lg" name="text_job" id="work-selection" required>
+                                          <option value="Senior UI / UX Designer">Senior UI / UX Designer</option>
+                                          <option value="Web Designer">Web Designer</option>
+                                          <option value="Accountant">Accountant</option>
+                                          <option value="Manager">Manager</option>
+                                          <option value="other-work" class="other">Other</option>
+                                        </select>
+                        <input type="text" class="form-control other-work" name="text_other_work" placeholder="Please Enter Your Other Work" id="other-work">
+
+                    </div>
+                    <br>
+                    <div class="row">
+                        <label>Company<span class="red">*</span></label>
+                        <input type="text" class="form-control" name="text_work">
+                    </div>
+                    <!-- year -->
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label for="validationCustom03">From Year:</label>
+                            <select class="form-control form-control-lg" name="text_year" id="years5" onchange="ChangecatList()" required>
+                                              <option value="2019">2019</option>
+                                              <option value="2018">2018</option>
+                                              <option value="2017">2017</option>
+                                              <option value="2016">2016</option>
+                                              <option value="2015">2015</option>
+                                              <option value="2014">2014</option>
+                                              <option value="2013">2013</option>
+        
+                                            </select>
+
+                        </div>
+                        <div class="col-md-6 mb-3 years">
+                            <label for="validationCustom04">To Year</label>
+                            <select class="form-control form-control-lg" name="text_year" id="years4" onchange="ChangecatList()" required>
+                                            <!-- <option value="">Choose... </option> -->
+                                            <option value="2019">2019</option>
+                                            <option value="2018">2018</option>
+                                            <option value="2017">2017</option>
+                                            <option value="2016">2016</option>
+                                            <option value="2015">2015</option>
+                                            <option value="2014">2014</option>
+                                            <option value="2013">2013</option>   
+                                          </select>
+                        </div>
+
+                    </div>
+                    <!-- check -->
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+
+                        </div>
+                        <div class="col-md-6 mb-3 checks">
+                            <div class="check-row study">
+                                <input type="checkbox" id="check-five" class="hidden" name="text_still_student" />
+
+                                <label class="check-label" for="check-five">
+                                                                        
+                                             <div class="check-box">
+                                                <i class="fa fa-square-o check-off"></i><i class="fa fa-check check-on"></i>
+                                                       </div>    
+                                                        I currently study here
+                                                   </label>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="modal-bottom"> <button class="btn" name="btn-model">Save Change</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-overlay"></div>
+
+
+
+
+    <!-- delete education model -->
+    <div class="modal fade delete-frame" role="dialog" id="delete-work-modal">
+        <div class="modal-dialog">
+            <div class="modal-content modal-inset">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <h4>Are You Sure you want Delete this from your profile?</h4>
+                    <div class="modal-bottom close"> <button class="btn red" name="btn-model" type="submit" value="submit">Delete</button>
+                        <button class="btn" name="btn-model" type="submit" value="submit" data-dismiss="modal">Cancel</button></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-overlay"></div>
+
+    <!-- language model -->
+    <div class="modal fade" role="dialog" id="lang-modal">
+        <div class="modal-dialog">
+            <div class="modal-content modal-inset">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h3>Languages</h3>
+                    <div class="modal-body">
+                        <label for="validation-lng">Language<span class="red">*</span></label>
+                        <select class="form-control form-control-lg" name="text_lng" id="validation-lng" required>
+                                              <option value="English">English</option>
+                                              <option value="Deutsch">Deutsch</option>
+                                              <option value="Italy">Italy</option>
+                                              <option value="Frensch">Frensch</option>
+    
+                                            </select>
+                        <br>
+                        <label for="validation-prof">Proficency<span class="red">*</span></label>
+                        <select class="form-control form-control-lg" name="text_prof" id="validation-prof" required>
+                                                              <option value="V.Good">V.Good</option>
+                                                              <option value="Good">Good</option>
+                                                              <option value="Fluent">Fluent</option>
+                                                            </select>
+
+                        <div class="modal-bottom"> <button class="btn" name="btn-model" type="submit" value="submit">Save Change</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-overlay"></div>
+
+
+
+
+    <!-- delete lang model -->
+    <div class="modal fade delete-frame" role="dialog" id="delete-lng-modal">
+        <div class="modal-dialog">
+            <div class="modal-content modal-inset">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <h4>Are You Sure you want Delete this from your profile?</h4>
+                    <div class="modal-bottom close"> <button class="btn red" name="btn-model" type="submit" value="submit">Delete</button>
+                        <button class="btn" name="btn-model" type="submit" value="submit" data-dismiss="modal">Cancel</button></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-overlay"></div>
+
+
+    <!-- test model -->
+    <div class="modal fade" role="dialog" id="test-modal">
+        <div class="modal-dialog">
+            <div class="modal-content modal-inset">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h3>Test / Certificate</h3>
+                    <div class="modal-body">
+
+                        <label for="validation-test">Test Name <span class="red">*</span></label>
+                        <select class="form-control form-control-lg" name="text_test" id="validation-test" required>
+                                              <option value="TOFEL - IBT">TOFEL - IBT</option>
+                                              <option value="Diploma">Diploma</option>
+                                        
+                                            </select>
+                        <br>
+                        <div class="row">
+                            <div class="col-md-6 mb-3 score">
+                                <label for="validationCustom04">Score <span class="red">*</span></label>
+                                <input type="text" class="form-control" name="text_score" placeholder="eg.200"><span class="percentege">300</span>
+                            </div>
+                        </div>
+
+
+                        <div class="modal-bottom"> <button class="btn" name="btn-model" type="submit" value="submit">Save Change</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-overlay"></div>
+
+
+
+    <!-- delete test model -->
+    <div class="modal fade delete-frame" role="dialog" id="delete-test-modal">
+        <div class="modal-dialog">
+            <div class="modal-content modal-inset">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <h4>Are You Sure you want Delete this from your profile?</h4>
+                    <div class="modal-bottom close"> <button class="btn red" name="btn-model" type="submit" value="submit">Delete</button>
+                        <button class="btn" name="btn-model" type="submit" value="submit" data-dismiss="modal">Cancel</button></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-overlay"></div>
+
+    <!-- interest model -->
+    <div class="modal fade" role="dialog" id="interest-modal">
+        <div class="modal-dialog">
+            <div class="modal-content modal-inset">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h3>Interest</h3>
+
+                    <div class="modal-body">
+                        <label for="validation-interest">Interests<span class="red">*</span></label>
+                        <textarea class="form-control form-control-lg" name="text_interest" id="validation-interest" required>
+                                            </textarea>
+                        <div class="modal-bottom"> <button class="btn" name="btn-model" type="submit" value="submit">Save Change</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-overlay"></div>
+
+    <!-- delete interest model -->
+    <div class="modal fade delete-frame" role="dialog" id="delete-interest-modal">
+        <div class="modal-dialog">
+            <div class="modal-content modal-inset">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <h4>Are You Sure you want Delete this from your profile?</h4>
+                    <div class="modal-bottom close"> <button class="btn red" name="btn-model" type="submit" value="submit">Delete</button>
+                        <button class="btn" name="btn-model" type="submit" value="submit" data-dismiss="modal">Cancel</button></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-overlay"></div>
+
+    <!-- scholarship model -->
+    <div class="modal fade" role="dialog" id="scholar-modal">
+        <div class="modal-dialog">
+            <div class="modal-content modal-inset">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h3>Scholarship</h3>
+
+                    <div class="modal-body">
+                        <label>Scholarship<span class="red">*</span></label>
+                        <input type="text" class="form-control" name="text_scholarship" required>
+                        <label>Story<span class="red">*</span></label>
+                        <textarea class="form-control form-control-lg" name="text_story" required>
+                </textarea>
+
+                        <div class="modal-bottom"> <button class="btn" name="btn-model" type="submit" value="submit">Save Change</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-overlay"></div>
+
+    <!-- delete scholar model -->
+    <div class="modal fade delete-frame" role="dialog" id="delete-scholar-modal">
+        <div class="modal-dialog">
+            <div class="modal-content modal-inset">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <h4>Are You Sure you want Delete this from your profile?</h4>
+                    <div class="modal-bottom close"> <button class="btn red" name="btn-model" type="submit" value="submit">Delete</button>
+                        <button class="btn" name="btn-model" type="submit" value="submit" data-dismiss="modal">Cancel</button></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-overlay"></div>
+
+    <!-- footer -->
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h3> <img src="img/site_logos.svg"></h3>
+
+                    <p>Marj3 is the #1 platform for scholarships and opportunities in the MENA region</p>
+                </div>
+                <div class="col-md-1">
+
+                </div>
+                <div class="col-md-2">
+                    <h3>Marj3</h3>
+                    <ul>
+                        <li><a href="">About Marj3</a></li>
+                        <li><a href="">Partners</a></li>
+                        <li><a href="">Team</a></li>
+                        <li><a href="">FAQ</a></li>
+                        <li><a href="">Terms and Conditions</a></li>
+
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h3>Connect</h3>
+                    <ul>
+                        <li><a href="">Publish a Scholarship for free</a></li>
+                        <li><a href="">Feature your Scholarship</a></li>
+                        <li><a href="">Marj3 Events</a></li>
+                        <li><a href="">Contact Us</a></li>
+
+                    </ul>
+                </div>
+
+                <div class="col-md-3">
+                    <h3>Follow Marj3 in social media</h3>
+                    <div class="social-link">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+
+
+                        </ul>
+                    </div>
+                    <h3>Download Marj3 App</h3>
+                    <div class="social-app">
+                        <img src="img/app_store.png">
+                        <img src="img/google_play.png">
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="scroll-top">
+
+        <a class="up" href="#"><i class="fa fa-angle-double-up"></i></a>
+    </div>
+    <!-- loading -->
+
+    <div id="splash">
+        <div class="anim">
+            <!-- <h2>Ready To Start New Life With Marj3 ...</h2> -->
+            <div id="loader">
+                <svg version="1.1" width="60px" height="70px" viewBox="0 0 60 70">
+                      <defs>
+                        <filter id="f1" x="0" y="0">
+                          <feGaussianBlur in="SourceGraphic" stdDeviation="2" />
+                        </filter>
+                      </defs>
+                      <g id="airplane">
+                        <path fill="#fff" d="M0.677,20.977l4.355,1.631c0.281,0.104,0.579,0.162,0.88,0.16l9.76-0.004L30.46,41.58c0.27,0.34,0.679,0.545,1.112,0.541
+                        h1.87c0.992,0,1.676-0.992,1.322-1.918l-6.643-17.439l6.914,0.002l6.038,6.037c0.265,0.266,0.624,0.412,0.999,0.418l1.013-0.004
+                        c1.004-0.002,1.684-1.012,1.312-1.938l-2.911-7.277l2.912-7.278c0.372-0.928-0.313-1.941-1.313-1.938h1.017
+                        c-0.375,0-0.732,0.15-0.996,0.414l-6.039,6.039h-6.915l6.646-17.443c0.354-0.926-0.33-1.916-1.321-1.914l-1.87-0.004
+                        c-0.439,0.004-0.843,0.203-1.112,0.543L15.677,17.24l-9.765-0.002c-0.3,0.002-0.597,0.055-0.879,0.16L0.678,19.03
+                        C-0.225,19.36-0.228,20.637,0.677,20.977z" transform="translate(44,0) rotate(90 0 0)" />
+                      </g>
+                      <g id="shadow" transform="scale(.9)">
+                        <path fill="#000" fill-opacity="0.3" d="M0.677,20.977l4.355,1.631c0.281,0.104,0.579,0.162,0.88,0.16l9.76-0.004L30.46,41.58c0.27,0.34,0.679,0.545,1.112,0.541
+                            h1.87c0.992,0,1.676-0.992,1.322-1.918l-6.643-17.439l6.914,0.002l6.038,6.037c0.265,0.266,0.624,0.412,0.999,0.418l1.013-0.004
+                            c1.004-0.002,1.684-1.012,1.312-1.938l-2.911-7.277l2.912-7.278c0.372-0.928-0.313-1.941-1.313-1.938h1.017
+                            c-0.375,0-0.732,0.15-0.996,0.414l-6.039,6.039h-6.915l6.646-17.443c0.354-0.926-0.33-1.916-1.321-1.914l-1.87-0.004
+                            c-0.439,0.004-0.843,0.203-1.112,0.543L15.677,17.24l-9.765-0.002c-0.3,0.002-0.597,0.055-0.879,0.16L0.678,19.03
+                            C-0.225,19.36-0.228,20.637,0.677,20.977z" transform="translate(64,30) rotate(90 0 0)" filter="url(#f1)" />
+                      </g>
+                    </svg>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src="https://code.jquery.com/ui/1.10.2/jquery-ui.min.js"></script>
+
+    <!-- bootstrap JS
+		============================================ -->
+    <!-- wow JS
+            ============================================ -->
+    <script src="js/wow.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/js/bootstrap-datepicker.min.js'></script>
+    <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js" integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U" crossorigin="anonymous"></script>
+    <!-- <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js" integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9" crossorigin="anonymous"></script> -->
+
+    <script src="js/profile.js"></script>
+    <script src="js/minitoggle.js"></script>
+    <script src="js/jquery.tag-editor.min.js"></script>
+    <script src="js/progress.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        $('.plus-btn a').click(function() {
+            $('body').addClass("menu-open");
+            $('.menu-container').addClass('full');
+            $('button.click-open').addClass('block');
+        });
+
+        var myVar;
+
+        function myFunction() {
+            myVar = setTimeout(showPage, 1000);
+        }
+
+        function showPage() {
+            document.getElementById("loader").style.display = "none";
+            document.getElementsByTagName("div").style.display = "block";
+        }
+    </script>
+
+    <script>
+        (function($) {
+
+            var allPanels = $('.accordion > dd').hide();
+
+            $('.accordion > dt > a').click(function() {
+                allPanels.slideUp();
+                $(this).parent().next().slideDown();
+                return false;
+            });
+
+        })(jQuery);
+    </script>
+
+    <script type="text/javascript">
+        $('.toggle').minitoggle();
+    </script>
+
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-36251023-1']);
+        _gaq.push(['_setDomainName', 'jqueryscript.net']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script');
+            ga.type = 'text/javascript';
+            ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+
+</body>
+
+</html>

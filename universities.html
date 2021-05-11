@@ -1,0 +1,736 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Marj3</title>
+    <meta name="description" content="Marj3 Search now to find the scholarship that you want">
+    <meta name="keywords" content="Marj3,scholarship,community,events,New Opportunities Picked For You">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- favicon
+		============================================ -->
+    <link rel="icon" href="img/fac.png" type="image/png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.7.5/css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="js/select/select-min.css">
+    <link rel="stylesheet" href="js/jquery-ui/jquery-ui.min.css">
+    <link rel="stylesheet" href="js/datepicker/jquery.datetimepicker.min.css">
+    <link rel="stylesheet" href="css/country_code.css">
+    <link rel="stylesheet" href="css/multi-select.css">
+    <link rel="stylesheet" href="css/study_abroad.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/test.css">
+
+
+
+
+</head>
+
+<body onload="myFunction()">
+
+    <!-- Start Header Top Area -->
+    <header id="main-header">
+        <div class="navbar header-top-area navbar-default navbar-fixed-top desktop">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7 col-md-7 col-sm-8">
+                        <div class="logo-area" style="display: inline-block;">
+                            <a class="logo-headerr" href="#"><img src="img/site_logos.svg" alt="" /></a>
+                            <ul class="nav navbar-nav notika-top-nav l-menu">
+
+                                <li class="nav-item" id="scholar-link"><a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle"><span>Scholarship<i class="fa fa-angle-down"></i></span></a>
+                                    <ul class="dropdown-menu multi-level animated slideInDown" id="scholar-menu">
+
+                                        <li class="dropdown-submenu">
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Degree Opportunities</a>
+                                            <ul class="dropdown-menu sub scnd">
+                                                <li><a href="#">IB (High School)</a></li>
+                                                <li><a href="#">Under Graduated (Bachelor)</a></li>
+                                                <li><a href="#">Masters</a></li>
+                                                <li><a href="#">PHD</a></li>
+                                                <li><a href="#">Post DOC</a></li>
+
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Fellowships</a></li>
+                                        <li class="dropdown-submenu">
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Events,Summits</a>
+                                            <ul class="dropdown-menu sub scnd">
+                                                <li><a href="#">IB (High School)</a></li>
+                                                <li><a href="#">Under Graduated (Bachelor)</a></li>
+                                                <li><a href="#">Post DOC</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Internships & Summer Traning</a></li>
+                                        <li><a href="#">Exchange Programs</a></li>
+                                        <li><a href="#">Volunteering Programs</a></li>
+                                        <li><a href="#">Summer School</a></li>
+                                        <li><a href="#">Career Development</a></li>
+                                        <li><a href="#">Accelerators for Startups</a></li>
+
+                                    </ul>
+                                </li>
+
+
+                                <li class="nav-item active" id="study-link"><a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle"><span>Study Abroad<i class="fa fa-angle-down"></i></span></a>
+                                    <ul class="dropdown-menu multi-level animated slideInDown" id="study-menu">
+                                        <li class="dropdown-submenu">
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Engineering</a>
+                                            <ul class="dropdown-menu sub">
+                                                <li><a href="#">Civil Engineering</a></li>
+                                                <li><a href="#">Electronics Engineering</a></li>
+                                                <li><a href="#">Mechanical Engineering</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Arts & Design</a></li>
+                                        <li class="dropdown-submenu">
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Events,Summits</a>
+                                            <ul class="dropdown-menu sub scnd">
+                                                <li><a href="#">IB (High School)</a></li>
+                                                <li><a href="#">Under Graduated (Bachelor)</a></li>
+                                                <li><a href="#">Post DOC</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Computer Science & IT</a></li>
+                                        <li><a href="#">Health & Medicine</a></li>
+                                        <li><a href="#">Natural Science</a></li>
+                                        <li class="seperate">
+                                            <hr>
+                                        </li>
+                                        <li class="browse"><img src="img/Browse Universities.svg"><a href="#">Browse Universities</a></li>
+                                        <li class="browse"><img src="img/Browse Countries.svg"><a href="#">Browse Countries</a></li>
+
+
+                                    </ul>
+                                </li>
+
+                                <li class="nav-item" id="communit-link"><a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle"><span>Community<i class="fa fa-angle-down"></i></span></a>
+                                    <ul class="dropdown-menu multi-level communit animated slideInDown" id="communit-menu">
+                                        <li class="first-col">
+                                            <a href="#"><img src="img/menu_discussions.svg">
+                                                <h4>Discussions</h4>
+                                                <p>Ask experienced people</p>
+                                            </a>
+                                        </li>
+                                        <li class="second-col">
+                                            <a href="#"><img src="img/menu_videos.svg">
+                                                <h4>Videos</h4>
+                                                <p>Tips & Tricks about Scholars</p>
+                                            </a>
+                                        </li>
+                                        <li class="first-col menu-article">
+                                            <a href="#"> <img src="img/menu_articles.svg">
+                                                <h4>Articles</h4>
+                                                <p>All about scholars</p>
+                                            </a>
+                                        </li>
+
+                                    </ul>
+
+                                </li>
+
+
+                                <li class="nav-item" id="event-link"><a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle"><span><i class="fa fa-circle"></i><i class="fa fa-circle"></i><i class="fa fa-circle"></i></span></a>
+                                    <ul class="dropdown-menu multi-level communit animated slideInDown" id="event-menu">
+                                        <li class="first-col">
+                                            <a href="#">
+                                                <h4>Events</h4>
+                                                <p>Meet Marj3 at your city</p>
+                                            </a>
+                                        </li>
+                                        <li class="second-col">
+                                            <a href="#">
+                                                <h4>Marj3 Study Abroad</h4>
+                                                <p>see how marj3 help you</p>
+                                            </a>
+                                        </li>
+                                        <li class="first-col menu-article">
+                                            <a href="#">
+                                                <h4>Marj3 Heros</h4>
+                                                <p>people who took scholars</p>
+                                            </a>
+                                        </li>
+                                        <li class="second-col">
+                                            <a href="#"><img src="img/medal_no_badges.svg">
+                                                <h4>Leaderbroad</h4>
+                                                <p>See people's ranks</p>
+                                            </a>
+                                        </li>
+
+                                    </ul>
+                                </li>
+
+                            </ul>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-4">
+                        <div class="header-top-menu">
+                            <ul class="nav navbar-nav notika-top-nav">
+                                <li class="nav-item lng">
+                                    <a href="#" role="button" aria-expanded="false" class="nav-link arabic-btn"><span>العربية</span></a>
+
+                                </li>
+                                <li class="nav-item dropdown notify nc-al" id="notify-link">
+                                    <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle"><span><img src="img/notification.svg"></span></a>
+                                    <ul class="dropdown-menu notification animated slideInDown" id="notify-menu">
+                                        <i class="fa fa-sort-up"></i>
+
+                                        <li class="nav-item list title">
+                                            <h3>NOTIFICATIONS</h3>
+                                        </li>
+                                        <li class="nav-item list">
+                                            <img class="app-icon" src="https://image.flaticon.com/icons/svg/183/183338.svg">We found a new course for you<a href="#">Check it</a>
+                                            <p>3 miutes ago</p>
+                                        </li>
+                                        <li class="nav-item list">
+                                            <img class="app-icon" src="https://image.flaticon.com/icons/svg/1156/1156728.svg">You earned a verified badge<a href="#">Check it</a>
+                                            <p>3 miutes ago</p>
+                                        </li>
+                                        <li class="nav-item list">
+                                            <img class="app-icon" src="https://image.flaticon.com/icons/svg/183/183338.svg">We found a new course for you<a href="#">Check it</a>
+                                            <p>3 miutes ago</p>
+                                        </li>
+                                        <li class="nav-item list">
+                                            <img class="app-icon" src="https://image.flaticon.com/icons/svg/1156/1156728.svg">you earned a verified badge<a href="#">Check it</a>
+                                            <p>3 miutes ago</p>
+                                        </li>
+
+                                        <li class="nav-item list page">
+                                            <a href="#" class="notification-page">All Notification</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="nav-item nc-al"><a href="#" role="button" aria-expanded="false" class="nav-link"><span><img src="img/saved.svg"></span><div class="spinner4 spinner-4"></div><div class="ntd-ctn"><span>3</span></div></a>
+
+                                </li>
+
+                                <li class="nav-item notify" id="admin-link"><a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle"><span><img src="img/admin.png"></span></a>
+                                    <ul class="dropdown-menu notification profile animated slideInDown" id="admin-menu">
+                                        <i class="fa fa-sort-up"></i>
+
+                                        <li class="nav-item list">
+                                            <img class="menu-profile" src="img/user_avatar.svg">
+                                            <h3>Mohamed Moustafa</h3>
+                                            <a href="#">View My Profile</a>
+                                        </li>
+                                        <li class="nav-item page">
+                                            <p><a href="#">My Scholarship</a><span class="num">2</span></p>
+                                        </li>
+                                        <li class="nav-item list setting">
+                                            <p><a href="index.html">Settings</a></p>
+                                        </li>
+                                        <li class="nav-item list setting">
+                                            <p><a href="index.html">Log Out</a></p>
+                                        </li>
+
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- End Header Top Area -->
+
+
+    <!-- mobile menu -->
+
+    <div class="header-top-area mobile">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="logo-area" style="display: inline-block;">
+                        <a href="#"><img src="img/site_logos.svg" alt="" /></a>
+                    </div>
+                    <div class="header-top-menu">
+                        <ul class="nav navbar-nav notika-top-nav">
+                            <li class="nav-item lng">
+                                <a href="profilear.html" role="button" aria-expanded="false" class="nav-link"><span>العربية</span></a>
+
+                            </li>
+                            <li class="nav-item dropdown nc-al notify">
+                                <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle"><span><img src="img/notification.svg"></span></a>
+                                <ul class="dropdown-menu notification animated zoomIn">
+                                    <i class="fa fa-sort-up"></i>
+
+                                    <li class="nav-item list title">
+                                        <h3>NOTIFICATIONS</h3>
+                                    </li>
+                                    <li class="nav-item list">
+                                        <img class="app-icon" src="https://image.flaticon.com/icons/svg/183/183338.svg">We found a new course for you<a href="#">Check it</a>
+                                        <p>3 miutes ago</p>
+                                    </li>
+                                    <li class="nav-item list">
+                                        <img class="app-icon" src="https://image.flaticon.com/icons/svg/1156/1156728.svg">You earned a verified badge<a href="#">Check it</a>
+                                        <p>3 miutes ago</p>
+                                    </li>
+                                    <li class="nav-item list">
+                                        <img class="app-icon" src="https://image.flaticon.com/icons/svg/183/183338.svg">We found a new course for you<a href="#">Check it</a>
+                                        <p>3 miutes ago</p>
+                                    </li>
+                                    <li class="nav-item list">
+                                        <img class="app-icon" src="https://image.flaticon.com/icons/svg/1156/1156728.svg">you earned a verified badge<a href="#">Check it</a>
+                                        <p>3 miutes ago</p>
+                                    </li>
+
+                                    <li class="nav-item list page">
+                                        <a href="#" class="notification-page">All Notification</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item nc-al"><a href="#" role="button" aria-expanded="false" class="nav-link"><span><img src="img/saved.svg"></span><div class="spinner4 spinner-4"></div><div class="ntd-ctn"><span>3</span></div></a>
+
+                            </li>
+                            <li class="nav-item open-mob-menu plus-btn"><a href="#" role="button" aria-expanded="false" class="nav-link"><span><i class="fa fa-circle"></i><i class="fa fa-circle"></i><i class="fa fa-circle"></i></span></a>
+                                <button class="click-open"></button>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+
+    <!-- mobile menu contebt -->
+
+
+    <div class="menu-container">
+
+        <div class="menu-sliders"></div>
+        <div class="menu-sliders"></div>
+        <div class="menu-sliders"></div>
+        <div class="menu mob">
+            <ul class="mobile-menu animated zoomIn" x-placement="bottom-start">
+                <li>
+                    <img src="img/user_avatar.svg">
+                </li>
+                <li>
+                    <h3>Mohamed Moustafa</h3>
+                </li>
+                <li>
+                    <a href="#" class="view-profile">View My Profile</a>
+                </li>
+                <li class="animated fadeIn delay-2s">
+                    <hr>
+                </li>
+                <li>
+                    <a href="#">My Scholarships</a><span class="num">2</span>
+                </li>
+                <li>
+                    <a href="#">Settings</a>
+                </li>
+                <li>
+                    <a href="index.html">Log Out</a>
+                </li>
+                <li class="animated fadeIn delay-2s">
+                    <hr>
+                </li>
+            </ul>
+            <div id="accordians">
+                <ul class="accordion-sub">
+                    <li class="scholar">
+                        <a href="#">Scholarships</a>
+                        <ul class="scholar-sub">
+                            <li>
+                                <a href="#">Degree Opportunities</a>
+                                <ul class="degree-sub">
+                                    <li><a href="#">IB(High School)</a></li>
+                                    <li><a href="#">Under Graduated (Bachelor)</a></li>
+                                    <li><a href="#">Masters</a></li>
+                                    <li><a href="#">PHD</a></li>
+                                    <li><a href="#">Post DOC</a></li>
+
+                                </ul>
+                            </li>
+                            <li><a href="#">Fellowships</a></li>
+                            <li>
+                                <a href="#">Events,Summits</a>
+                                <ul class="event-sub">
+                                    <li><a href="#">IB(High School)</a></li>
+                                    <li><a href="#">Under Graduated (Bachelor)</a></li>
+                                    <li><a href="#">Masters</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Internships & Summer Traning</a></li>
+                            <li><a href="#">Exchange Programs</a></li>
+                            <li><a href="#">Volunteering Programs</a></li>
+                            <li><a href="#">Summer School</a></li>
+                            <li><a href="#">Career Development</a></li>
+                            <li><a href="#">Accelerators for Startups</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="study">
+                        <a href="#">Study Abroad</a>
+                        <ul class="scholar-sub">
+                            <li>
+                                <a href="#">Engineering</a>
+                                <ul class="degree-sub">
+                                    <li><a href="#">Civil Engineering</a></li>
+                                    <li><a href="#">Electronics Engineering</a></li>
+                                    <li><a href="#">Mechnical Engineering</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Art & Designs</a></li>
+                            <li>
+                                <a href="#">Events,Summits</a>
+                                <ul class="event-sub">
+                                    <li><a href="#">IB(High School)</a></li>
+                                    <li><a href="#">Under Graduated (Bachelor)</a></li>
+                                    <li><a href="#">Masters</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Computer Science & IT</a></li>
+                            <li><a href="#">Health & Medicine</a></li>
+                            <li><a href="#">Volunteering Programs</a></li>
+                            <li><a href="#">Natural Science</a></li>
+                            <li><a href="#">Browse Universities</a></li>
+                            <li><a href="#">Browse Countries</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="community">
+                        <a href="#">Community</a>
+                        <ul class="scholar-sub">
+
+                            <li><a href="#">Discussions</a></li>
+                            <li><a href="#">Videos</a></li>
+                            <li><a href="#">Articles</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- start landing page -->
+
+    <div class="page-content-body">
+        <!-- Section Section 
+        ==========================================-->
+        <section class="section-setting">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                        <div class="countries-page-head">
+                            <img src="img/universities.png"> All Universities
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-12">
+                        <div class="unver-side">
+                            <div class="title">SORT BY</div>
+                            <ul class="sort">
+                                <li><a href="">Popular</a></li>
+                                <li><a href="">World Rank</a></li>
+                                <li><a href=""># Of Programs</a></li>
+                                <li><a href=""># Of Students</a></li>
+                            </ul>
+                        </div>
+                        <div class="unver-side">
+                            <div class="title">FILTER OPTIONS</div>
+                            <div class="filter-item">
+                                <div class="radio-wrap">
+                                    <input id="guran" type="checkbox">
+                                    <label for="guran">
+                                            <span class="custom">
+                                                <div class="gurant">GUARNTEE</div> Guaranteed Only
+                                            </span>
+                                        </label>
+                                </div>
+                            </div>
+                            <div class="title">
+                                <i class="fas fa-map-marker-alt"></i> Targeted Countries
+                            </div>
+                            <div class="select-menu js-select-menu inputNational-head" id="Countries">
+                                <input class="menu-state js-menu-state" id="Countries_list" type="checkbox" />
+                                <label class="select-label js-select-label" data-default-label="Select Countries" data-label="Select Countries" for="Countries_list">
+                                        <div class="arrow"></div>
+                                    </label>
+                                <ul class="menu js-select-options">
+                                    <li class="js-filterable" data-filter-criteria="Egyption">
+                                        <label class="menu-item">
+                                                <input class="checkbox js-option" type="checkbox" value="Egyption"/>
+                                                <div class="choice-input"></div><span>Egyption</span>
+                                            </label>
+                                    </li>
+                                    <li class="js-filterable" data-filter-criteria="American">
+                                        <label class="menu-item">
+                                                <input class="checkbox js-option" type="checkbox" value="American"/>
+                                                <div class="choice-input"></div><span>American</span>
+                                            </label>
+                                    </li>
+                                    <li class="js-filterable" data-filter-criteria="Chiness">
+                                        <label class="menu-item">
+                                                <input class="checkbox js-option" type="checkbox" value="Chiness"/>
+                                                <div class="choice-input"></div><span>Chiness</span>
+                                            </label>
+                                    </li>
+                                    <li class="js-filterable" data-filter-criteria="Japanes">
+                                        <label class="menu-item">
+                                                <input class="checkbox js-option" type="checkbox" value="Japanes"/>
+                                                <div class="choice-input"></div><span>Japanes</span>
+                                            </label>
+                                    </li>
+                                    <li class="js-filterable" data-filter-criteria="German">
+                                        <label class="menu-item">
+                                                <input class="checkbox js-option" type="checkbox" value="German"/>
+                                                <div class="choice-input"></div><span>German</span>
+                                            </label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="prog-ad">
+                            <span>ads here</span>
+                        </div>
+                    </div>
+                    <div class="col-md-9 col-sm-12">
+                        <form class="search-head">
+                            <div class="form-group">
+                                <input class="form-control" type="text" placeholder="search in programs">
+                                <button class="custom-btn"><i class="fa fa-search"></i></button>
+                            </div>
+                        </form>
+                        <div class="search-status">
+                            200 univerisites
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="unver-block">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4118.826802865308!2d-0.46365000303850246!3d52.133065073558974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb387dadc97ad7cd1!2sThe+Embankment!5e0!3m2!1sen!2seg!4v1551628556567"
+                                width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+                            <img src="img/course_1.png">
+                            <div class="unver-name">University of Washington</div>
+                            <div class="unver-map"><i class="fas fa-map-marker-alt"></i> United Kingdom</div>
+                            <p>
+                                The undergraduate Entrepreneurship program aims to prepare “independent”, “corporate” and “social”…
+                            </p>
+                            <ul class="unver-stat">
+                                <li>
+                                    <span>34</span> World Rank
+                                </li>
+                                <li>
+                                    <span>12</span> Programs
+                                </li>
+                                <li>
+                                    <span>5000</span> Student
+                                </li>
+                            </ul>
+                            <div class="clearfix"></div>
+                            <a href="university.html">
+                                <i class="fas fa-landmark"></i> Visit University’s Profile
+                            </a>
+                        </div>
+                        <div class="unver-block">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4118.826802865308!2d-0.46365000303850246!3d52.133065073558974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb387dadc97ad7cd1!2sThe+Embankment!5e0!3m2!1sen!2seg!4v1551628556567"
+                                width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+                            <img src="img/course_1.png">
+                            <div class="unver-name">University of Washington</div>
+                            <div class="unver-map"><i class="fas fa-map-marker-alt"></i> United Kingdom</div>
+                            <p>
+                                The undergraduate Entrepreneurship program aims to prepare “independent”, “corporate” and “social”…
+                            </p>
+                            <ul class="unver-stat">
+                                <li>
+                                    <span>34</span> World Rank
+                                </li>
+                                <li>
+                                    <span>12</span> Programs
+                                </li>
+                                <li>
+                                    <span>5000</span> Student
+                                </li>
+                            </ul>
+                            <div class="clearfix"></div>
+                            <a href="university.html">
+                                <i class="fas fa-landmark"></i> Visit University’s Profile
+                            </a>
+                        </div>
+                        <div class="unver-block">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4118.826802865308!2d-0.46365000303850246!3d52.133065073558974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb387dadc97ad7cd1!2sThe+Embankment!5e0!3m2!1sen!2seg!4v1551628556567"
+                                width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+                            <img src="img/course_1.png">
+                            <div class="unver-name">University of Washington</div>
+                            <div class="unver-map"><i class="fas fa-map-marker-alt"></i> United Kingdom</div>
+                            <p>
+                                The undergraduate Entrepreneurship program aims to prepare “independent”, “corporate” and “social”…
+                            </p>
+                            <ul class="unver-stat">
+                                <li>
+                                    <span>34</span> World Rank
+                                </li>
+                                <li>
+                                    <span>12</span> Programs
+                                </li>
+                                <li>
+                                    <span>5000</span> Student
+                                </li>
+                            </ul>
+                            <div class="clearfix"></div>
+                            <a href="university.html">
+                                <i class="fas fa-landmark"></i> Visit University’s Profile
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!--End Row-->
+            </div>
+            <!--End container-->
+        </section>
+        <!--End Section-->
+    </div>
+
+
+    <!-- footer -->
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h3> <img src="img/site_logos.svg"></h3>
+
+                    <p>Marj3 is the #1 platform for scholarships and opportunities in the MENA region</p>
+                </div>
+                <div class="col-md-1">
+
+                </div>
+                <div class="col-md-2">
+                    <h3>Marj3</h3>
+                    <ul>
+                        <li><a href="about.html">About Marj3</a></li>
+                        <li><a href="partner.html">Partners</a></li>
+                        <li><a href="team.html">Team</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="terms&condition.html">Terms and Conditions</a></li>
+
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h3>Connect</h3>
+                    <ul>
+                        <li><a href="publish-scholarship.html">Publish a Scholarship for free</a></li>
+                        <li><a href="feature-scholar.html">Feature your Scholarship</a></li>
+                        <li><a href="event.html">Marj3 Events</a></li>
+                        <li><a href="contact-us.html">Contact Us</a></li>
+
+                    </ul>
+                </div>
+
+                <div class="col-md-3">
+                    <h3>Follow Marj3 in social media</h3>
+                    <div class="social-link">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+
+
+                        </ul>
+                    </div>
+                    <h3>Download Marj3 App</h3>
+                    <div class="social-app">
+                        <img src="img/app_store.png">
+                        <img src="img/google_play.png">
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="scroll-top">
+
+        <a class="up" href="#"><i class="fa fa-angle-double-up"></i></a>
+    </div>
+    <!-- loading -->
+
+    <div id="splash">
+        <div class="anim">
+            <!-- <h2>Ready To Start New Life With Marj3 ...</h2> -->
+            <div id="loader">
+                <svg version="1.1" width="60px" height="70px" viewBox="0 0 60 70">
+                      <defs>
+                        <filter id="f1" x="0" y="0">
+                          <feGaussianBlur in="SourceGraphic" stdDeviation="2" />
+                        </filter>
+                      </defs>
+                      <g id="airplane">
+                        <path fill="#fff" d="M0.677,20.977l4.355,1.631c0.281,0.104,0.579,0.162,0.88,0.16l9.76-0.004L30.46,41.58c0.27,0.34,0.679,0.545,1.112,0.541
+                        h1.87c0.992,0,1.676-0.992,1.322-1.918l-6.643-17.439l6.914,0.002l6.038,6.037c0.265,0.266,0.624,0.412,0.999,0.418l1.013-0.004
+                        c1.004-0.002,1.684-1.012,1.312-1.938l-2.911-7.277l2.912-7.278c0.372-0.928-0.313-1.941-1.313-1.938h1.017
+                        c-0.375,0-0.732,0.15-0.996,0.414l-6.039,6.039h-6.915l6.646-17.443c0.354-0.926-0.33-1.916-1.321-1.914l-1.87-0.004
+                        c-0.439,0.004-0.843,0.203-1.112,0.543L15.677,17.24l-9.765-0.002c-0.3,0.002-0.597,0.055-0.879,0.16L0.678,19.03
+                        C-0.225,19.36-0.228,20.637,0.677,20.977z" transform="translate(44,0) rotate(90 0 0)" />
+                      </g>
+                      <g id="shadow" transform="scale(.9)">
+                        <path fill="#000" fill-opacity="0.3" d="M0.677,20.977l4.355,1.631c0.281,0.104,0.579,0.162,0.88,0.16l9.76-0.004L30.46,41.58c0.27,0.34,0.679,0.545,1.112,0.541
+                            h1.87c0.992,0,1.676-0.992,1.322-1.918l-6.643-17.439l6.914,0.002l6.038,6.037c0.265,0.266,0.624,0.412,0.999,0.418l1.013-0.004
+                            c1.004-0.002,1.684-1.012,1.312-1.938l-2.911-7.277l2.912-7.278c0.372-0.928-0.313-1.941-1.313-1.938h1.017
+                            c-0.375,0-0.732,0.15-0.996,0.414l-6.039,6.039h-6.915l6.646-17.443c0.354-0.926-0.33-1.916-1.321-1.914l-1.87-0.004
+                            c-0.439,0.004-0.843,0.203-1.112,0.543L15.677,17.24l-9.765-0.002c-0.3,0.002-0.597,0.055-0.879,0.16L0.678,19.03
+                            C-0.225,19.36-0.228,20.637,0.677,20.977z" transform="translate(64,30) rotate(90 0 0)" filter="url(#f1)" />
+                      </g>
+                    </svg>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.40/js/uikit.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.40/js/uikit-icons.min.js'></script>
+    <script src="js/popup/magnific-popup.js"></script>
+    <script src="js/datepicker/jquery.datetimepicker.full.min.js"></script>
+    <script src="js/country_code.js"></script>
+    <script src="js/jquery-ui/jquery-ui.min.js"></script>
+    <script src="js/study_abroad.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js"></script>
+    <script src="js/profile.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/custom.js"></script>
+
+
+    <script>
+        $('.plus-btn a').click(function() {
+            $('body').addClass("menu-open");
+            $('.menu-container').addClass('full');
+            $('button.click-open').addClass('block');
+        });
+
+        var myVar;
+
+        function myFunction() {
+            myVar = setTimeout(showPage, 1000);
+        }
+
+        function showPage() {
+            document.getElementById("loader").style.display = "none";
+            document.getElementsByTagName("div").style.display = "block";
+        }
+        $("#myInput").on("keyup", function() {
+            var value = $(this).val().toLowerCase();
+            $(".dropdown-menu li").filter(function() {
+                $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+            });
+        });
+    </script>
+
+
+</body>
+
+</html>

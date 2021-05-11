@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="53.4" height="42.6" viewBox="0 0 53.4 42.6">
+  <g id="icons8-meeting_room" transform="translate(0.3 0.3)">
+    <g id="Group" transform="translate(22.44)">
+      <ellipse id="Oval" cx="3.3" cy="3.281" rx="3.3" ry="3.281" transform="translate(0.66 0.656)" fill="#d4e3ff"/>
+      <path id="Shape" d="M3.96,7.875A3.938,3.938,0,1,1,7.92,3.938,3.953,3.953,0,0,1,3.96,7.875Zm0-6.563A2.625,2.625,0,1,0,6.6,3.938,2.636,2.636,0,0,0,3.96,1.312Z" stroke="#000" stroke-miterlimit="10" stroke-width="0.6"/>
+    </g>
+    <g id="Group-2" data-name="Group" transform="translate(2.64 3.938)">
+      <ellipse id="Oval-2" data-name="Oval" cx="3.3" cy="3.281" rx="3.3" ry="3.281" transform="translate(0.66 0.656)" fill="#d4e3ff"/>
+      <path id="Shape-2" data-name="Shape" d="M3.96,7.875A3.938,3.938,0,1,1,7.92,3.938,3.953,3.953,0,0,1,3.96,7.875Zm0-6.563A2.625,2.625,0,1,0,6.6,3.938,2.636,2.636,0,0,0,3.96,1.312Z" stroke="#000" stroke-miterlimit="10" stroke-width="0.6"/>
+    </g>
+    <g id="Group-3" data-name="Group" transform="translate(42.24 3.938)">
+      <ellipse id="Oval-3" data-name="Oval" cx="3.3" cy="3.281" rx="3.3" ry="3.281" transform="translate(0.66 0.656)" fill="#d4e3ff"/>
+      <path id="Shape-3" data-name="Shape" d="M3.96,7.875A3.938,3.938,0,1,1,7.92,3.938,3.953,3.953,0,0,1,3.96,7.875Zm0-6.563A2.625,2.625,0,1,0,6.6,3.938,2.636,2.636,0,0,0,3.96,1.312Z" stroke="#000" stroke-miterlimit="10" stroke-width="0.6"/>
+    </g>
+    <g id="Group-4" data-name="Group" transform="translate(19.8 9.188)">
+      <path id="Shape-4" data-name="Shape" d="M0,11.813V5.906a5.94,5.94,0,0,1,11.88,0v5.906Z" transform="translate(0.66 0.656)" fill="#8cb4ff"/>
+      <path id="Shape-5" data-name="Shape" d="M13.2,13.125H0V6.563a6.6,6.6,0,0,1,13.2,0v6.561ZM6.6,1.312A5.271,5.271,0,0,0,1.32,6.563v5.25H11.88V6.563A5.271,5.271,0,0,0,6.6,1.312Z" stroke="#000" stroke-miterlimit="10" stroke-width="0.6"/>
+    </g>
+    <path id="Shape-6" data-name="Shape" d="M23.1,1.313H.66A.656.656,0,1,1,.66,0H23.1a.656.656,0,1,1,0,1.313Z" transform="translate(14.52 21)" stroke="#000" stroke-miterlimit="10" stroke-width="0.6"/>
+    <path id="Shape-7" data-name="Shape" d="M9.9,15.75H7.26A7.248,7.248,0,0,1,0,8.531V.656a.66.66,0,0,1,1.32,0V8.531a5.93,5.93,0,0,0,5.94,5.906H9.9a.656.656,0,1,1,0,1.313Z" transform="translate(0 18.375)" stroke="#000" stroke-miterlimit="10" stroke-width="0.6"/>
+    <path id="Shape-8" data-name="Shape" d="M3.3,15.75H.66a.656.656,0,1,1,0-1.312H3.3A5.93,5.93,0,0,0,9.24,8.531V.656a.66.66,0,0,1,1.32,0V8.531A7.248,7.248,0,0,1,3.3,15.75Z" transform="translate(42.24 18.375)" stroke="#000" stroke-miterlimit="10" stroke-width="0.6"/>
+    <g id="Group-5" data-name="Group" transform="translate(2.64 13.125)">
+      <path id="Shape-9" data-name="Shape" d="M11.879,27.563c-.09,0-.182,0-.273-.013a2.759,2.759,0,0,1-2.365-2.8V17.063H4.62A4.612,4.612,0,0,1,0,12.469V3.281a3.3,3.3,0,0,1,6.6,0v8.531h4.62a3.294,3.294,0,0,1,3.3,3.281v9.844a2.6,2.6,0,0,1-.774,1.857,2.635,2.635,0,0,1-1.868.768Z" transform="translate(0.66 0.656)" fill="#8cb4ff"/>
+      <path id="Shape-10" data-name="Shape" d="M12.54,28.875a3.38,3.38,0,0,1-.34-.017A3.422,3.422,0,0,1,9.24,25.406V18.375H5.28A5.271,5.271,0,0,1,0,13.125V3.938a3.96,3.96,0,0,1,7.92,0v7.875h3.96a3.953,3.953,0,0,1,3.96,3.938v9.843A3.3,3.3,0,0,1,12.54,28.875ZM3.96,1.312A2.636,2.636,0,0,0,1.32,3.938v9.187a3.953,3.953,0,0,0,3.96,3.937H10.56v8.344a2.1,2.1,0,0,0,1.772,2.146,2.021,2.021,0,0,0,.208.011,1.977,1.977,0,0,0,1.98-1.969V15.75a2.636,2.636,0,0,0-2.64-2.625H6.6V3.938A2.636,2.636,0,0,0,3.96,1.312Z" stroke="#000" stroke-miterlimit="10" stroke-width="0.6"/>
+    </g>
+    <g id="Group-6" data-name="Group" transform="translate(34.32 13.125)">
+      <path id="Shape-11" data-name="Shape" d="M2.64,27.563A2.635,2.635,0,0,1,0,24.938V15.094a3.294,3.294,0,0,1,3.3-3.281H7.92V3.281a3.3,3.3,0,0,1,6.6,0v9.188A4.612,4.612,0,0,1,9.9,17.063H5.28V24.75a2.757,2.757,0,0,1-2.365,2.8C2.822,27.557,2.73,27.563,2.64,27.563Z" transform="translate(0.66 0.656)" fill="#8cb4ff"/>
+      <path id="Shape-12" data-name="Shape" d="M3.3,28.875A3.3,3.3,0,0,1,0,25.593V15.75a3.953,3.953,0,0,1,3.96-3.937H7.92V3.938a3.96,3.96,0,0,1,7.92,0v9.187a5.271,5.271,0,0,1-5.28,5.251H6.6v7.031a3.42,3.42,0,0,1-2.959,3.451A3.379,3.379,0,0,1,3.3,28.875Zm.66-15.75A2.636,2.636,0,0,0,1.32,15.75v9.843A1.977,1.977,0,0,0,3.3,27.563a2.023,2.023,0,0,0,.208-.011A2.1,2.1,0,0,0,5.28,25.406V17.062H10.56a3.953,3.953,0,0,0,3.96-3.937V3.938a2.64,2.64,0,0,0-5.279,0v9.187H3.96Z" stroke="#000" stroke-miterlimit="10" stroke-width="0.6"/>
+    </g>
+  </g>
+</svg>

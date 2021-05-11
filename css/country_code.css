@@ -1,0 +1,389 @@
+.mb-2 {
+    margin-bottom: 1rem;
+}
+
+.ml-2 {
+    margin-left: 1rem;
+}
+
+.hidden-mobile {
+    display: none;
+}
+
+.verify-phone-container__body {
+    position: relative;
+    border: solid 1px #ebebeb;
+    border-top: 0;
+}
+
+.verify-phone-wrapper {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 7vh;
+}
+
+.verify-phone-wrapper .verify-phone-container .verify-phone-container__header {
+    padding: 0.5rem;
+    border: solid 1px #ebebeb;
+}
+
+.verify-phone-wrapper .verify-phone-container .verify-phone-container__header .header-title {
+    margin-bottom: 0;
+}
+
+.verify-phone-wrapper .verify__toggle-text {
+    margin-left: 1rem;
+    margin-bottom: 0;
+}
+
+.phone-wrapper {
+    margin-bottom: 1rem;
+}
+
+.d-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.left-side,
+.right-side {
+    padding: 1rem;
+}
+
+.left-side {
+    width: 80px;
+    text-align: center;
+    font-size: 0.8rem;
+    padding-top: 1.4rem;
+}
+
+.right-side select {
+    background-color: #ebebeb;
+}
+
+.right-side select option {
+    border-radius: 0;
+}
+
+.country-name {
+    marin-left: 1rem;
+}
+
+.select-selected .country-name {
+    display: none;
+}
+
+
+/* The container must be positioned relative: */
+
+.custom-select {
+    position: relative;
+    font-family: Arial;
+    margin-right: 1rem;
+    width: 100%;
+    height: 31px;
+    background-color: #ffffff;
+    border: 1px solid #ededed;
+}
+
+.custom-select select {
+    display: none;
+}
+
+.select-selected.select-arrow-active:after {
+    border-color: transparent transparent #fff transparent;
+    top: 12px;
+}
+
+.select-items div .country-option,
+.select-selected .country-option {
+    padding: 10px 16px;
+    border: none;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    max-width: 100%;
+}
+
+.country-option {
+    background: white !important;
+    color: #2C2D30 !important;
+    font-size: 24px !important;
+}
+
+.select-selected {
+    position: relative;
+    width: 65px;
+    background-color: #ffffff;
+    height: 42px;
+}
+
+.select-selected::after {
+    position: absolute;
+    content: "";
+    top: calc(50% + 3px);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 115px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #333 transparent transparent transparent;
+    cursor: pointer;
+}
+
+
+/* Style items (options): */
+
+.select-items {
+    position: absolute;
+    background-color: gray;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    max-height: 45vh;
+    overflow: auto;
+    width: 145px;
+}
+
+
+/* Hide the items when the select box is closed: */
+
+.select-hide {
+    display: none;
+}
+
+.select-items div:hover,
+.same-as-selected {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.select-items .same-as-selected {
+    display: none;
+}
+
+.country-name {
+    margin-left: 1rem;
+    font-size: 11px;
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    -ms-flex-negative: 1;
+    flex-shrink: 1;
+    min-width: 0;
+    width: 100%;
+}
+
+.country-flag {
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    min-width: 26.66px;
+    background-color: black;
+    position: relative;
+}
+
+.country-flag::after {
+    content: "?";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.country-code {
+    padding: 4px 12px;
+    background-color: #ebebeb;
+    font-size: 16px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    white-space: nowrap;
+}
+
+.tel-input {
+    padding: 3px;
+    border: solid 1px #ebebeb;
+    min-width: 130px;
+    border-radius: 0;
+    height: 45px;
+    width: 100%;
+    border-radius: 4px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    display: block;
+    font-size: 16px;
+}
+
+.verify__sub-desctiption {
+    font-size: 0.8rem;
+    color: #838383;
+}
+
+.verify__toggle-text {
+    color: #838383;
+    font-size: 0.9rem;
+}
+
+.verify-question {
+    position: absolute;
+    top: calc( 1rem + 8px);
+    right: 0.5rem;
+}
+
+.verify-question a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-decoration: none !important;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 12px;
+    color: #333;
+}
+
+.verify-question a .question-mark {
+    margin-right: 0.5rem;
+}
+
+.verify-question .verify-popup {
+    border: solid 1px #404040;
+    background-color: rgba(0, 0, 0, 0.69);
+    color: white;
+    font-size: 0.75rem;
+    max-width: 230px;
+    left: 0;
+    position: absolute;
+    top: 30px;
+    padding: 0.7rem;
+    text-align: left;
+    opacity: 0;
+    -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    pointer-events: none;
+}
+
+.verify-question .verify-question-btn.active~.verify-popup {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.verify-question .question-mark {
+    background-color: gray;
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 50%;
+    height: 14px;
+    width: 14px;
+}
+
+.error {
+    color: #cd4f43;
+    font-size: 0.8rem;
+    display: none;
+}
+
+.error.show {
+    display: block;
+}
+
+.error span {
+    margin-right: 0.5rem;
+}
+
+@media (max-width: 630px) {
+    .verify-phone-container__body {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .left-side {
+        padding-bottom: 0;
+        padding-top: 1rem;
+    }
+    .verify-question {
+        top: calc( 1rem - 2px);
+    }
+    .page-title {
+        font-size: 1.4rem;
+    }
+    .phone-input {
+        width: 100%;
+    }
+    .phone-input input {
+        width: 100%;
+    }
+}
+
+@media (max-width: 445px) {
+    .hidden-mobile {
+        display: block;
+    }
+    .phone-input {
+        width: 100%;
+    }
+    .phone-input input {
+        -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+        width: 100%;
+    }
+    input[type=checkbox] {
+        /* All browsers except webkit*/
+        transform: scale(2);
+        /* Webkit browsers*/
+        -webkit-transform: scale(2);
+    }
+}
+
+.step-2 {
+    display: none;
+}
+
+.step-2 .error {
+    display: block;
+}
+
+.step-2 .phone-wrapper-top-text {
+    font-size: 0.8rem;
+}
+
+.step-2 .help-links {
+    display: block;
+    color: black;
+    font-size: 0.8rem;
+}
+
+.step-2 .help-links:not(:last-child) {
+    margin-bottom: 0.5rem;
+}

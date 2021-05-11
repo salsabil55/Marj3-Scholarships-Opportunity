@@ -1,0 +1,16 @@
+<svg id="menu_videos" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="Rectangle_35" data-name="Rectangle 35" fill="#4dc2ac" stroke="#277163" stroke-miterlimit="10" stroke-width="1.163">
+    <rect width="30" height="30" rx="15" stroke="none"/>
+    <rect x="0.581" y="0.581" width="28.837" height="28.837" rx="14.419" fill="none"/>
+  </g>
+  <rect id="Rectangle_33_Copy_2" data-name="Rectangle 33 Copy 2" width="10.714" height="1.25" rx="0.625" transform="translate(9.214 21.75)" fill="#277163"/>
+  <rect id="Rectangle_33_Copy_4" data-name="Rectangle 33 Copy 4" width="10.714" height="1.25" rx="0.625" transform="translate(9.214 24.75)" fill="#277163"/>
+  <g id="Rectangle_35-2" data-name="Rectangle 35" transform="translate(7.071 3.75)" fill="#fff" stroke="#277163" stroke-miterlimit="10" stroke-width="1.163">
+    <rect width="15.75" height="15.75" rx="7.875" stroke="none"/>
+    <rect x="0.581" y="0.581" width="14.587" height="14.587" rx="7.294" fill="none"/>
+  </g>
+  <g id="Group_15" data-name="Group 15" transform="translate(13.071 8.571)">
+    <path id="Shape" d="M5.115,2.289.635.048A.438.438,0,0,0,.208.065.431.431,0,0,0,0,.435V4.923a.43.43,0,0,0,.208.369.435.435,0,0,0,.23.065.444.444,0,0,0,.2-.046L5.116,3.066a.433.433,0,0,0,.241-.388A.437.437,0,0,0,5.115,2.289Z" transform="translate(0 0)" fill="#4dc2ac"/>
+    <path id="Combined_Shape" data-name="Combined Shape" d="M.438,2.9a.444.444,0,0,1-.23-.065A.433.433,0,0,1,0,2.467v-.4a.435.435,0,0,0,.208.328.44.44,0,0,0,.428.018L5.116.164A.43.43,0,0,0,5.294,0a.431.431,0,0,1-.178.61L.635,2.855A.443.443,0,0,1,.438,2.9Z" transform="translate(0 2.456)" fill="#42aa97"/>
+  </g>
+</svg>

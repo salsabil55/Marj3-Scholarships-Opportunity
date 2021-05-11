@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12.803" height="13.797" viewBox="0 0 12.803 13.797">
+  <defs>
+    <clipPath id="clip">
+      <use xlink:href="#fill"/>
+    </clipPath>
+    <clipPath id="clip-2">
+      <use xlink:href="#fill-2"/>
+    </clipPath>
+    <clipPath id="clip-3">
+      <use xlink:href="#fill-3"/>
+    </clipPath>
+    <clipPath id="clip-4">
+      <use xlink:href="#fill-4"/>
+    </clipPath>
+    <clipPath id="clip-5">
+      <use xlink:href="#fill-5"/>
+    </clipPath>
+    <clipPath id="clip-6">
+      <use xlink:href="#fill-6"/>
+    </clipPath>
+  </defs>
+  <g id="Group_25" data-name="Group 25" transform="translate(0 -0.991)">
+    <g id="Rectangle_21" data-name="Rectangle 21" transform="translate(0 2.061)" fill="none" stroke="#535b66" stroke-miterlimit="10" stroke-width="1.077">
+      <rect width="12.803" height="12.727" rx="3.231" stroke="none"/>
+      <rect x="0.538" y="0.538" width="11.726" height="11.65" rx="2.692" fill="none"/>
+    </g>
+    <path id="Path_8" data-name="Path 8" d="M0,1.061H10.669" transform="translate(1.067 5.242)" fill="none" stroke="#535b66" stroke-miterlimit="10" stroke-width="1.077"/>
+    <path id="Path_8-2" data-name="Path 8" d="M0,1.061H3.2" transform="translate(5.542 0.991) rotate(90)" fill="none" stroke="#535b66" stroke-miterlimit="10" stroke-width="1.077"/>
+    <path id="Path_8_Copy" data-name="Path 8 Copy" d="M0,1.061H3.2" transform="translate(9.383 0.991) rotate(90)" fill="none" stroke="#535b66" stroke-miterlimit="10" stroke-width="1.077"/>
+    <g id="Group_24" data-name="Group 24" transform="translate(2.667 7.894)">
+      <g id="Group_23_Copy" data-name="Group 23 Copy">
+        <g id="Rectangle_24" data-name="Rectangle 24" fill="#d8d8d8" stroke="#535b66" stroke-miterlimit="10" stroke-width="1.077">
+          <rect id="fill" width="1.067" height="1.061" stroke="none"/>
+          <path d="M0,0.5221444368362427h1.066919207572937M0.5384615659713745,0v1.0606060028076172M1.066919207572937,0.5384615659713745h-1.066919207572937M0.5284576416015625,1.0606060028076172v-1.0606060028076172" fill="none" clip-path="url(#clip)"/>
+        </g>
+        <g id="Rectangle_24_Copy" data-name="Rectangle 24 Copy" transform="translate(3.201)" fill="#d8d8d8" stroke="#535b66" stroke-miterlimit="10" stroke-width="1.077">
+          <rect id="fill-2" width="1.067" height="1.061" stroke="none"/>
+          <path d="M0,0.5221444368362427h1.066919207572937M0.5384615659713745,0v1.0606060028076172M1.066919207572937,0.5384615659713745h-1.066919207572937M0.5284576416015625,1.0606060028076172v-1.0606060028076172" fill="none" clip-path="url(#clip-2)"/>
+        </g>
+        <g id="Rectangle_24_Copy_2" data-name="Rectangle 24 Copy 2" transform="translate(6.402)" fill="#d8d8d8" stroke="#535b66" stroke-miterlimit="10" stroke-width="1.077">
+          <rect id="fill-3" width="1.067" height="1.061" stroke="none"/>
+          <path d="M0,0.5221444368362427h1.066919207572937M0.5384615659713745,0v1.0606060028076172M1.066919207572937,0.5384615659713745h-1.066919207572937M0.5284576416015625,1.0606060028076172v-1.0606060028076172" fill="none" clip-path="url(#clip-3)"/>
+        </g>
+      </g>
+      <g id="Group_23_Copy_2" data-name="Group 23 Copy 2" transform="translate(0 3.182)">
+        <g id="Rectangle_24-2" data-name="Rectangle 24" fill="#d8d8d8" stroke="#535b66" stroke-miterlimit="10" stroke-width="1.077">
+          <rect id="fill-4" width="1.067" height="1.061" stroke="none"/>
+          <path d="M0,0.5221444368362427h1.066919207572937M0.5384615659713745,0v1.0606060028076172M1.066919207572937,0.5384615659713745h-1.066919207572937M0.5284576416015625,1.0606060028076172v-1.0606060028076172" fill="none" clip-path="url(#clip-4)"/>
+        </g>
+        <g id="Rectangle_24_Copy-2" data-name="Rectangle 24 Copy" transform="translate(3.201)" fill="#d8d8d8" stroke="#535b66" stroke-miterlimit="10" stroke-width="1.077">
+          <rect id="fill-5" width="1.067" height="1.061" stroke="none"/>
+          <path d="M0,0.5221444368362427h1.066919207572937M0.5384615659713745,0v1.0606060028076172M1.066919207572937,0.5384615659713745h-1.066919207572937M0.5284576416015625,1.0606060028076172v-1.0606060028076172" fill="none" clip-path="url(#clip-5)"/>
+        </g>
+        <g id="Rectangle_24_Copy_2-2" data-name="Rectangle 24 Copy 2" transform="translate(6.402)" fill="#d8d8d8" stroke="#535b66" stroke-miterlimit="10" stroke-width="1.077">
+          <rect id="fill-6" width="1.067" height="1.061" stroke="none"/>
+          <path d="M0,0.5221444368362427h1.066919207572937M0.5384615659713745,0v1.0606060028076172M1.066919207572937,0.5384615659713745h-1.066919207572937M0.5284576416015625,1.0606060028076172v-1.0606060028076172" fill="none" clip-path="url(#clip-6)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

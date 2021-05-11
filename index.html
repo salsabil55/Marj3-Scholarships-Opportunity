@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Marj3</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="img/fac.png" type="image/png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css'>
+    <!-- style -->
+    <!-- <link rel="stylesheet" href="css/stylear.css"> -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/test.css">
+
+
+</head>
+
+<body onload="myFunction()">
+    <!-- LOGIN PAGE -->
+
+    <div class="login-page page animate-bottom" style="display:none;" id="myDiv">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="uni">
+                        <div class="content">
+                            <h2>Welcome to Marj3</h2>
+                            <p>#1 Platform in the MENA for scholarships &<br> opportunities seekers.</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-2 space">
+                </div>
+                <div class="col-md-5">
+
+                    <div class="login-wrap">
+                        <div class="login-html">
+
+                            <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Sign In</label>
+                            <input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">Sign Up</label>
+
+
+                            <div class="login-form">
+                                <a href="index.html"><img src="img/site_icon.svg"></a>
+                                <div class="sign-in-htm">
+                                    <div class="get-started">
+                                        <p>Don't have an account yet ?<a href=""><label for="tab-2" class="started">Get Started</label></a> <span class="lng-ar"><a class="arabic" href="login-ar.html">العربية</a>
+                                        </span></p>
+
+                                    </div>
+                                    <div class="login-sec">
+                                        <h2>Log in to your account</h2>
+                                        <div class="panel">
+                                            <div class="formset">
+                                                <div class="form-group">
+                                                    <lable class="form-label">Username or Email</lable>
+                                                    <input class="form-control" type="text" name="text_name" />
+                                                </div>
+                                                <div class="form-group">
+                                                    <!-- <lable class="form-label">Password</lable>
+                                                    <input class="form-control" type="password" psswd-shown="false" />
+                                                    <button class="togglepass">Show</button> -->
+
+                                                    <label for="password" class="form-label">
+                                                            <span class="sr-only">Password</span>
+                                                          </label>
+                                                    <label class="form-label">Password</label>
+                                                    <input type="password" id="password" name="text_password" class="form-control password password-hidden">
+                                                    <input type="text" id="password-shown" class="form-control password password-shown">
+                                                    <button class="togglepass" name="btn_show_pass">Show</button>
+                                                </div>
+                                                <div class="form-group forget-pass">
+
+                                                    <a href="resetpassword.html">Forgot Password?</a>
+                                                </div>
+                                                <div class="form-group check">
+                                                    <div class="check-row">
+                                                        <input type="checkbox" id="check-two" class="hidden" name="text_remember" />
+
+                                                        <label class="check-label" for="check-two">
+                                                            
+                                                                  <div class="check-box">
+                                                                    <i class="fa fa-square-o check-off"></i><i class="fa fa-check check-on"></i>
+                                                                  </div>    
+                                                            
+                                                                  Remeber Me
+                                                                </label>
+                                                    </div>
+                                                </div>
+
+                                                <a href="profile.html"><button class="btn">Login</button></a>
+                                            </div>
+                                            <div class="or">
+                                                <p>or</p>
+                                            </div>
+                                            <form class="facebook log-form">
+                                                <h3 class="caption fa fa-facebook"><span>Use Facebook </span></h3>
+                                                <p>Login with Facebook </p><i class="close">&times;</i>
+                                                <div class="formset">
+                                                    <div class="form-group">
+                                                        <lable class="form-label">Username or Email</lable>
+                                                        <input class="form-control" type="text" name="text_name" />
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <lable class="form-label">Password</lable>
+                                                        <input class="form-control" type="password" name="text_password" />
+                                                    </div>
+                                                    <button class="btn" name="btn-login">Login</button>
+                                                </div>
+                                            </form>
+
+                                            <form class="google log-form">
+                                                <h3 class="caption fa fa-google-plus"> <span>Use Google</span></h3>
+                                                <p>Login with Google + </p><i class="close">&times;</i>
+                                                <div class="formset">
+                                                    <div class="form-group">
+                                                        <lable class="form-label">Username or Email</lable>
+                                                        <input class="form-control" type="text" name="text_name" />
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <lable class="form-label">Password</lable>
+                                                        <input class="form-control" type="password" name="text_password" />
+                                                    </div>
+                                                    <button class="btn" name="btn_login">Login</button>
+                                                </div>
+                                            </form>
+                                            <div class="get-started mob">
+                                                <p>Don't have an account yet ?<a href=""><label for="tab-2" class="started">Get Started</label></a> <span class="lng-ar"><a class="arabic" href="login-ar.html">العربية</a>
+                                                    </span></p>
+                                            </div>
+                                        </div>
+
+
+
+                                    </div>
+                                </div>
+
+
+                                <div class="sign-up-htm">
+                                    <div class="get-started">
+                                        <p>Already have an account
+                                            <a href="profile.html"> <label for="tab-1" class="started">Login</label><span class="lng-ar"><a class="arabic" href="login-ar.html">العربية</a>
+                                        </p>
+
+                                    </div>
+                                    <div class="login-sec">
+                                        <h2>Create New Account</h2>
+
+                                        <div class="panel">
+                                            <div class="formset">
+                                                <div class="form-group">
+                                                    <lable class="form-label">First Name</lable>
+                                                    <input class="form-control" type="text" name="text_f_name"/>
+                                                </div>
+                                                <div class="form-group">
+                                                    <lable class="form-label">Last Name</lable>
+                                                    <input class="form-control" type="text" name="text_l_name"/>
+                                                </div>
+                                                <div class="form-group">
+                                                    <lable class="form-label">Email</lable>
+                                                    <input class="form-control" type="text" name="text_email"/>
+                                                </div>
+                                                <div class="form-group">
+
+                                                    <label for="password" class="form-label">
+                                                                <span class="sr-only">Password</span>
+                                                </label>
+                                                <label class="form-label">Password</label>
+                                                <input type="password" id="password" name="text_password" class="form-control password password-hidden">
+                                                <input type="text" id="password-shown" class="form-control password password-shown" name="text_show">
+                                                <button class="togglepass" name="text_show_pass">Show</button>
+                                    </div>
+                                    <div class="form-group check signup">
+                                        <div class="check-row signup">
+                                            <input type="checkbox" id="check-three" class="hidden" name="text_accept" />
+
+                                            <label class="check-label" for="check-three">
+                                                        
+                                                              <div class="check-box">
+                                                                <i class="fa fa-square-o check-off"></i><i class="fa fa-check check-on"></i>
+                                                              </div>    
+                                                        
+                                                              Accept Terms and Conditions
+                                                            </label>
+                                        </div>
+                                    </div>
+                                    <a href="profile.html"><button class="btn signups" name="btn_signup">SignUp</button></a>
+                                </div>
+                                <div class="or">
+                                    <p>or</p>
+                                </div>
+                                <form class="facebook log-form">
+                                    <h3 class="caption fa fa-facebook"><span>Use Facebook </span></h3>
+                                    <p>Login with Facebook </p><i class="close">&times;</i>
+                                    <div class="formset">
+                                        <div class="form-group">
+                                            <lable class="form-label">User Name</lable>
+                                            <input class="form-control" type="text" name="text_name" />
+                                        </div>
+                                        <div class="form-group">
+                                            <lable class="form-label">Password</lable>
+                                            <input class="form-control" type="password" name="text_password" />
+                                        </div>
+                                        <button class="btn" name="btn_login">Login</button>
+                                    </div>
+                                </form>
+
+                                <form class="google log-form">
+                                    <h3 class="caption fa fa-google-plus"> <span>Use Google</span></h3>
+                                    <p>Login with Google + </p><i class="close">&times;</i>
+                                    <div class="formset">
+                                        <div class="form-group">
+                                            <lable class="form-label">User Name</lable>
+                                            <input class="form-control" type="text" name="text_name" />
+                                        </div>
+                                        <div class="form-group">
+                                            <lable class="form-label">Password</lable>
+                                            <input class="form-control" type="password" name="text_password" />
+                                        </div>
+                                        <button class="btn" name="btn_login">Login</button>
+                                    </div>
+                                </form>
+                                <div class="get-started mob">
+                                    <p>Already have an account
+                                        <a href=""> <label for="tab-1" class="started">Login</label></a>
+                                    </p>
+
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    </div>
+    </div>
+    </div>
+    </div>
+
+    <!-- loading -->
+
+    <div id="splash">
+        <div class="anim">
+            <!-- <h2>Ready To Start New Life With Marj3 ...</h2> -->
+            <div id="loader">
+                <svg version="1.1" width="60px" height="70px" viewBox="0 0 60 70">
+                  <defs>
+                    <filter id="f1" x="0" y="0">
+                      <feGaussianBlur in="SourceGraphic" stdDeviation="2" />
+                    </filter>
+                  </defs>
+                  <g id="airplane">
+                    <path fill="#fff" d="M0.677,20.977l4.355,1.631c0.281,0.104,0.579,0.162,0.88,0.16l9.76-0.004L30.46,41.58c0.27,0.34,0.679,0.545,1.112,0.541
+                    h1.87c0.992,0,1.676-0.992,1.322-1.918l-6.643-17.439l6.914,0.002l6.038,6.037c0.265,0.266,0.624,0.412,0.999,0.418l1.013-0.004
+                    c1.004-0.002,1.684-1.012,1.312-1.938l-2.911-7.277l2.912-7.278c0.372-0.928-0.313-1.941-1.313-1.938h1.017
+                    c-0.375,0-0.732,0.15-0.996,0.414l-6.039,6.039h-6.915l6.646-17.443c0.354-0.926-0.33-1.916-1.321-1.914l-1.87-0.004
+                    c-0.439,0.004-0.843,0.203-1.112,0.543L15.677,17.24l-9.765-0.002c-0.3,0.002-0.597,0.055-0.879,0.16L0.678,19.03
+                    C-0.225,19.36-0.228,20.637,0.677,20.977z" transform="translate(44,0) rotate(90 0 0)" />
+                  </g>
+                  <g id="shadow" transform="scale(.9)">
+                    <path fill="#000" fill-opacity="0.3" d="M0.677,20.977l4.355,1.631c0.281,0.104,0.579,0.162,0.88,0.16l9.76-0.004L30.46,41.58c0.27,0.34,0.679,0.545,1.112,0.541
+                        h1.87c0.992,0,1.676-0.992,1.322-1.918l-6.643-17.439l6.914,0.002l6.038,6.037c0.265,0.266,0.624,0.412,0.999,0.418l1.013-0.004
+                        c1.004-0.002,1.684-1.012,1.312-1.938l-2.911-7.277l2.912-7.278c0.372-0.928-0.313-1.941-1.313-1.938h1.017
+                        c-0.375,0-0.732,0.15-0.996,0.414l-6.039,6.039h-6.915l6.646-17.443c0.354-0.926-0.33-1.916-1.321-1.914l-1.87-0.004
+                        c-0.439,0.004-0.843,0.203-1.112,0.543L15.677,17.24l-9.765-0.002c-0.3,0.002-0.597,0.055-0.879,0.16L0.678,19.03
+                        C-0.225,19.36-0.228,20.637,0.677,20.977z" transform="translate(64,30) rotate(90 0 0)" filter="url(#f1)" />
+                  </g>
+                </svg>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <!-- main -->
+    <script src="js/main.js"></script>
+    <script>
+        var myVar;
+
+        function myFunction() {
+            myVar = setTimeout(showPage, 1000);
+        }
+
+        function showPage() {
+            document.getElementById("loader").style.display = "none";
+            document.getElementById("myDiv").style.display = "block";
+        }
+        $('.password-hidden').on('keyup', function() {
+            var val = $(this).val();
+            setTimeout(function() {
+                $('.password-shown').val(val);
+            }, 300);
+        });
+        $('.password-shown').on('keyup', function() {
+            var val = $(this).val();
+            setTimeout(function() {
+                $('.password-hidden').val(val);
+            }, 300);
+        });
+
+        $('.togglepass').on('click', function(e) {
+            e.preventDefault();
+            $('.password-shown, .password-hidden').toggle();
+            $(this).text(function(i, text) {
+                return text === "Hide" ? "Show" : "Hide";
+            })
+        });
+    </script>
+</body>
+
+</html>

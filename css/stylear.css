@@ -1,0 +1,368 @@
+@font-face {
+    font-family: Cairo-Bold;
+    src: url(../fonts/Cairo-Bold.ttf)
+}
+
+@font-face {
+    font-family: Cairo-Regular;
+    src: url(../fonts/Cairo-Regular.ttf)
+}
+
+body {
+    font-family: Cairo-Regular
+}
+
+
+/* login */
+
+.ar h3 {
+    font-family: Cairo-Regular !important;
+}
+
+.ar {
+    font-family: Cairo-Regular;
+}
+
+.ar .uni {
+    text-align: right;
+    font-family: Cairo-Regular;
+}
+/* translate */
+
+.arabic-header {
+    display: none;
+}
+
+.profile-about.rtl .col-md-4 {
+    float: right;
+}
+
+.card.info-block.rtl {
+    text-align: right;
+}
+
+.card.info-block.rtl img {
+    float: right;
+    margin-left: 5px;
+}
+
+.rtl a.link-edit {
+    float: left;
+}
+
+.rtl .nav-tabs>li {
+    transform: rotate(-180deg);
+}
+
+.rtl ul.nav.nav-tabs.nav-profle {
+    transform: rotate(180deg);
+}
+
+.rtl .profile-tabs .acco-about .btn-about {
+    float: left;
+}
+
+.rtl .profile-tabs .acco-about .educ-year {
+    float: left;
+}
+
+.rtl .profile-tabs .acco-about .educ-img {
+    float: left;
+}
+
+.card-header.rtl {
+    text-align: right;
+}
+
+.rtl li.panel.accordion-header {
+    text-align: right;
+}
+
+.pro-address.rtl ul li {
+    text-align: right;
+}
+
+.rtl .profile-tabs .profile-about .pro-headbad {
+    float: left !important;
+}
+
+.row.educa-row.rtl {
+    display: -webkit-flex;
+    -webkit-flex-direction: row-reverse;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.rtl .educ-img {
+    float: left !important;
+}
+
+.rtl .educ-year {
+    float: left !important;
+}
+
+.rtl .profile-tabs .acco-about .educa-about {
+    text-align: right;
+}
+
+.rtl .acco-about .btn-about {
+    float: left !important;
+}
+
+.rtl .educa-about1 {
+    text-align: right;
+}
+
+.profile-about.rtl .pro-headbad {
+    float: left !important;
+}
+
+.rtl .educa-about {
+    text-align: right;
+}
+
+.edit-profile.rtl h3>img {
+    float: left;
+    margin-top: 7px;
+}
+
+.rtl .nav-tabs {
+    border-bottom: none;
+}
+
+.tabs4-about.rtl .nav-tabs {
+    border-top: 1px solid #D8D8D8;
+    text-align: left;
+    transform: rotate(180deg);
+    border-bottom: none !important;
+}
+
+.acheiveme-bagge1.rtl {
+    margin-left: 0;
+    display: -webkit-flex;
+    -webkit-flex-direction: row-reverse;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.acheiveme-bagge.rtl {
+    display: -webkit-flex;
+    -webkit-flex-direction: row-reverse;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.Badges-head.rtl {
+    text-align: right;
+}
+
+.profile-tabs.rtl .nav-profle {
+    text-align: center;
+}
+
+.rtl {
+    text-align: right;
+}
+
+.profile-tabs.rtl {
+    text-align: center;
+}
+
+.row.pro-address.rtl {
+    display: -webkit-flex;
+    -webkit-flex-direction: row-reverse;
+    display: flex;
+    flex-direction: row-reverse;
+    padding-left: 30px;
+}
+
+.activity-body.rtl a.card-link.pro-head {
+    line-height: 20px;
+}
+
+.profile-about.rtl .pro-headbad {
+    float: right;
+}
+
+.row.pro-address.rtl {
+    display: -webkit-flex;
+    -webkit-flex-direction: row-reverse;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.counter.rtl {
+    text-align: center;
+}
+
+
+/* responsive */
+
+@media screen and (max-width: 1200px) and (min-width: 992px) {
+    .ar ul.dropdown-menu.multi-level.show {
+        top: 62px !important;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .profile-tabs .acco-about .educa-head1 {
+        margin-right: 0;
+    }
+    .profile-tabs .acco-about .educa-head2 {
+        margin-right: 0;
+    }
+    ul#accordion {
+        padding-right: 0;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .ar .profile-tabs .educa-about1 .educatio-imga {
+        margin-right: -25px;
+    }
+    .ar .profile-tabs .acco-about .educ-img {
+        right: 5px;
+    }
+    .ar .profile-tabs .Scholar-about .scholar-text {
+        padding-right: 40px;
+    }
+    .ar .profile-tabs .Scholar-about .Scholar-story {
+        top: 12px;
+    }
+    .ar .profile-tabs .profile-navitem {
+        width: auto;
+    }
+    .ar .spinner4 {
+        left: 70px;
+    }
+    .ar .ntd-ctn {
+        left: 64px;
+    }
+}
+
+
+/* End profile */
+
+
+/* start footer */
+
+.ar .footer ul {
+    padding-right: 0;
+}
+
+
+/* End footer */
+
+
+/* carousel */
+
+.ar #quote-carousel {
+    padding: 0 10px 30px 10px;
+    margin-top: 30px;
+}
+
+
+/* Control buttons  */
+
+.ar #quote-carousel .carousel-control {
+    background: none;
+    color: #222;
+    font-size: 2.3em;
+    text-shadow: none;
+    margin-top: 30px;
+}
+
+
+/* Previous button  */
+
+.ar #quote-carousel .carousel-control.left {
+    left: -12px;
+}
+
+
+/* Next button  */
+
+.ar #quote-carousel .carousel-control.right {
+    right: -12px !important;
+}
+
+
+/* Changes the position of the indicators */
+
+.ar #quote-carousel .carousel-indicators {
+    right: 50%;
+    top: auto;
+    bottom: 0px;
+    margin-right: -19px;
+}
+
+
+/* Changes the color of the indicators */
+
+.ar #quote-carousel .carousel-indicators li {
+    background: #c0c0c0;
+}
+
+.ar #quote-carousel .carousel-indicators .active {
+    background: #333333;
+}
+
+.ar #quote-carousel img {
+    width: 250px;
+    height: 100px
+}
+
+
+/* End carousel */
+
+.ar .item blockquote {
+    border-left: none;
+    margin: 0;
+}
+
+.ar .item blockquote img {
+    margin-bottom: 10px;
+}
+
+.ar .item blockquote p:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;
+}
+
+
+/**
+  MEDIA QUERIES
+*/
+
+
+/* Small devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {
+    .ar #quote-carousel {
+        margin-bottom: 0;
+        padding: 0 40px 30px 40px;
+    }
+}
+
+
+/* Small devices (tablets, up to 768px) */
+
+@media (max-width: 768px) {
+    /* Make the indicators larger for easier clicking with fingers/thumb on mobile */
+    .ar #quote-carousel .carousel-indicators {
+        bottom: -20px !important;
+    }
+    .ar #quote-carousel .carousel-indicators li {
+        display: inline-block;
+        margin: 0px 5px;
+        width: 15px;
+        height: 15px;
+    }
+    .ar #quote-carousel .carousel-indicators li.active {
+        margin: 0px 5px;
+        width: 20px;
+        height: 20px;
+    }
+}

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20.5" height="20.5" viewBox="0 0 20.5 20.5">
+  <g id="add_profile__item" data-name="add_profile _item" transform="translate(-1041.75 -412.75)">
+    <path id="Shape" d="M10,20A10,10,0,1,1,20,10,10.011,10.011,0,0,1,10,20ZM10,.869A9.13,9.13,0,1,0,19.13,10,9.141,9.141,0,0,0,10,.869Zm0,12.615a.436.436,0,0,1-.435-.441V10.435H6.949a.435.435,0,0,1,0-.869H9.565V6.956a.434.434,0,0,1,.428-.44H10a.435.435,0,0,1,.434.44V9.565h2.614a.435.435,0,1,1,0,.869H10.435v2.609a.434.434,0,0,1-.435.441Z" transform="translate(1042 413)" fill="#2bb798" stroke="#2bb798" stroke-miterlimit="10" stroke-width="0.5"/>
+  </g>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="Browse_Universities" data-name="Browse Universities" transform="translate(0 -3)">
+    <rect id="With_Icon_University_background" data-name="With Icon / University background" width="20" height="20" transform="translate(0 3)" fill="rgba(0,0,0,0)"/>
+    <g id="icons8-university" transform="translate(0.346 3.002)" opacity="0.8">
+      <path id="Shape" d="M18.952,5.32a.537.537,0,0,1-.1.319.288.288,0,0,1-.231.13H.331a.348.348,0,0,1-.307-.283.59.59,0,0,1,0-.346A.4.4,0,0,1,.209,4.9L9.237.063a.494.494,0,0,1,.482,0L18.744,4.9A.47.47,0,0,1,18.952,5.32Z" transform="translate(0.351 0.383)" fill="#ced9ed"/>
+      <path id="Shape-2" data-name="Shape" d="M18.362,5.792a.433.433,0,0,1-.021.042.055.055,0,0,1-.025,0H16.853L9.169,1.715,1.477,5.838H.127a.888.888,0,0,1-.056-.1A.809.809,0,0,1,.393,4.708L8.927.131,9.169,0l.242.131,8.632,4.631s0,0,.007,0A.8.8,0,0,1,18.362,5.792Z" transform="translate(0.661 0.314)" fill="#b5c4e0"/>
+      <path id="Shape-3" data-name="Shape" d="M0,0V1.154a.369.369,0,0,0,.351.385H2.456a.369.369,0,0,0,.351-.385V0" transform="translate(2.11 6.152)" fill="#c2cde7"/>
+      <path id="Shape-4" data-name="Shape" d="M0,0V1.154a.369.369,0,0,0,.351.385H2.456a.369.369,0,0,0,.351-.385V0" transform="translate(6.321 6.152)" fill="#c2cde7"/>
+      <path id="Shape-5" data-name="Shape" d="M0,0V1.154a.369.369,0,0,0,.351.385H2.456a.369.369,0,0,0,.351-.385V0" transform="translate(10.531 6.152)" fill="#c2cde7"/>
+      <path id="Shape-6" data-name="Shape" d="M0,0V1.154a.369.369,0,0,0,.351.385H2.456a.369.369,0,0,0,.351-.385V0" transform="translate(14.742 6.152)" fill="#c2cde7"/>
+      <path id="Shape-7" data-name="Shape" d="M17.895,1.538V.385A.369.369,0,0,0,17.544,0H1.4a.369.369,0,0,0-.351.385V1.538h-.7A.369.369,0,0,0,0,1.923V3.846H18.947V1.923a.369.369,0,0,0-.351-.385Z" transform="translate(0.356 15.768)" fill="#ced9ed"/>
+      <rect id="Rectangle-path" width="2.105" height="8.077" transform="translate(2.461 7.691)" fill="#ced9ed"/>
+      <rect id="Rectangle-path-2" data-name="Rectangle-path" width="2.105" height="8.077" transform="translate(15.093 7.691)" fill="#ced9ed"/>
+      <rect id="Rectangle-path-3" data-name="Rectangle-path" width="2.105" height="8.077" transform="translate(6.672 7.691)" fill="#ced9ed"/>
+      <rect id="Rectangle-path-4" data-name="Rectangle-path" width="2.105" height="8.077" transform="translate(10.882 7.691)" fill="#ced9ed"/>
+      <rect id="Rectangle-path-5" data-name="Rectangle-path" width="2.105" height="1.154" transform="translate(2.461 7.691)" fill="#b5c4e0"/>
+      <rect id="Rectangle-path-6" data-name="Rectangle-path" width="2.105" height="1.154" transform="translate(15.093 7.691)" fill="#b5c4e0"/>
+      <rect id="Rectangle-path-7" data-name="Rectangle-path" width="2.105" height="1.154" transform="translate(6.672 7.691)" fill="#b5c4e0"/>
+      <rect id="Rectangle-path-8" data-name="Rectangle-path" width="2.105" height="1.154" transform="translate(10.882 7.691)" fill="#b5c4e0"/>
+      <rect id="Rectangle-path-9" data-name="Rectangle-path" width="18.947" height="1.923" transform="translate(0.356 17.691)" fill="#b5c4e0"/>
+      <path id="Shape-8" data-name="Shape" d="M1.754,0H.351A.369.369,0,0,0,0,.385.369.369,0,0,0,.351.769h1.4A.369.369,0,0,0,2.105.385.369.369,0,0,0,1.754,0Z" transform="translate(15.093 17.306)" fill="#8d6c9f"/>
+      <path id="Shape-9" data-name="Shape" d="M19.3,20H.356A.369.369,0,0,1,0,19.614V18.076a.739.739,0,0,1,.7-.769h.351V16.152a.739.739,0,0,1,.7-.77h.351V7.969a.78.78,0,0,1-.351-.662V6.537H.682a.7.7,0,0,1-.642-.551A1.007,1.007,0,0,1,.048,5.4.773.773,0,0,1,.4,4.941L9.435.1a.828.828,0,0,1,.788,0l9.026,4.84a.858.858,0,0,1,.4.763.95.95,0,0,1-.173.56.634.634,0,0,1-.5.274H17.9v.769a.777.777,0,0,1-.35.662v7.414h.35a.739.739,0,0,1,.7.77v1.154h.351a.739.739,0,0,1,.7.769v1.538A.369.369,0,0,1,19.3,20ZM.707,18.076v1.154H18.952V18.076h-.7a.37.37,0,0,1-.351-.385V16.152H1.76v1.154H14.04a.386.386,0,0,1,0,.769H.707Zm14.737-10v7.307h1.4V8.076ZM13.689,6.537v.769a.78.78,0,0,1-.351.662v7.414h1.4V7.969a.78.78,0,0,1-.351-.662V6.537ZM11.233,8.076v7.307h1.4V8.076ZM9.479,6.537v.769a.78.78,0,0,1-.351.662v7.414h1.4V7.969a.78.78,0,0,1-.351-.662V6.537ZM7.023,8.076v7.307h1.4V8.076ZM5.268,6.537v.769a.78.78,0,0,1-.351.662v7.414h1.4V7.969a.78.78,0,0,1-.351-.662V6.537ZM2.812,8.076v7.307h1.4V8.076ZM15.093,6.537v.769H17.2V6.537Zm-4.211,0v.769h2.105V6.537Zm-4.21,0v.769H8.777V6.537Zm-4.211,0v.769H4.567V6.537ZM9.83.769a.187.187,0,0,0-.088.023L.714,5.631a.2.2,0,0,0,0,.12c0,.009,0,.014,0,.016H18.942a.151.151,0,0,0,.011-.064.144.144,0,0,0-.02-.078L9.916.791A.214.214,0,0,0,9.83.769Z" transform="translate(0 0)" fill="#8d6c9f"/>
+    </g>
+  </g>
+</svg>

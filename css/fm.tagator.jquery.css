@@ -1,0 +1,159 @@
+/* reset */
+
+.tagator_element * {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+/* dimmer */
+
+#tagator_dimmer {
+    background-color: rgba(0, 0, 0, .1);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+
+/* Main box */
+
+.tagator_element {
+    border: 1px solid #EBEDF2;
+    border-radius: 3px;
+    box-sizing: border-box;
+    background-color: #fff;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.tagator_element.options-visible {
+    position: relative;
+    z-index: 101;
+}
+
+
+/* placeholder */
+
+.tagator_placeholder {
+    position: absolute;
+    color: #999;
+    left: 4px;
+    top: 4px;
+    font-size: 13px;
+}
+
+
+/* chosen items holder */
+
+.tagator_tags {
+    display: inline;
+}
+
+
+/* chosen item */
+
+.tagator_tag {
+    display: inline-block;
+    background-color: #E8F1F8;
+    border-radius: 11px;
+    color: #535B66;
+    padding: 2px 40px 3px 10px;
+    font-size: 14px;
+    margin: 2px;
+    position: relative;
+    vertical-align: top;
+}
+
+
+/* chosen item remove button */
+
+.tagator_tag_remove {
+    display: inline-block;
+    font-weight: bold;
+    color: #fff;
+    margin: 0px 9px 2px 6px;
+    padding: 7px 8px 4px 7px;
+    cursor: pointer;
+    font-size: 11px;
+    line-height: 10px;
+    vertical-align: top;
+    border-radius: 0 2px 2px 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: #79899E;
+    bottom: 0;
+    border-radius: 50%;
+}
+
+.tagator_tag_remove:hover {
+    color: #fff;
+    background-color: #79899E;
+}
+
+
+/* input box */
+
+.tagator_input,
+.tagator_textlength {
+    border: 0;
+    display: inline-block;
+    margin: 0;
+    background-color: transparent;
+    font-size: 13px;
+    outline: none;
+    padding: 4px 0 0 5px;
+    position: relative;
+    z-index: 1;
+}
+
+.tagator_input {
+    /*padding: 0px 0px;*/
+}
+
+
+/* options holder */
+
+.tagator_options {
+    margin: 0;
+    padding: 0;
+    border: 1px solid #7f9db9;
+    border-radius: 0 0 3px 3px;
+    font-family: sans-serif;
+    position: absolute;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    z-index: 101;
+    background-color: #fff;
+    overflow: auto;
+    max-height: 160px;
+    list-style: none;
+    overflow-y: scroll;
+    left: -1px;
+    right: -1px;
+}
+
+.tagator_element.options-hidden .tagator_options {
+    display: none;
+}
+
+
+/* result item */
+
+.tagator_option {
+    padding: 5px;
+    cursor: pointer;
+    color: #535B66;
+    font-size: 14px;
+    font-family: HelveticaNeue;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.tagator_option.active {
+    color: #535B66;
+    font-family: HelveticaNeue;
+}

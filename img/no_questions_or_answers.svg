@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="72" height="72" viewBox="0 0 72 72">
+  <defs>
+    <clipPath id="clip-path">
+      <circle id="path-1" cx="36" cy="36" r="36" transform="translate(0 0)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="no_questions_or_answers" transform="translate(-78)">
+    <g id="Group_6" data-name="Group 6" transform="translate(78)" opacity="0.5">
+      <g id="Group-6-Copy_Clipped" data-name="Group-6-Copy Clipped">
+        <circle id="path-1-2" data-name="path-1" cx="36" cy="36" r="36" transform="translate(0 0)" fill="none"/>
+        <g id="Group-6-Copy_Clipped-2" data-name="Group-6-Copy Clipped" clip-path="url(#clip-path)">
+          <g id="Group-6-Copy" transform="translate(-6 -2.4)">
+            <g id="Group" transform="translate(39.544 0.707) rotate(42)">
+              <rect id="Rectangle-4" width="7.837" height="43.863" rx="3.918" transform="translate(13.061 0.585)" fill="#f5f5f5"/>
+              <path id="Combined-Shape" d="M7.837,26.523a3.731,3.731,0,0,0-3.918-3.509A3.731,3.731,0,0,0,0,26.523V0A3.731,3.731,0,0,0,3.918,3.509,3.731,3.731,0,0,0,7.837,0Z" transform="translate(20.245 6.915)" fill="#f5f5f5"/>
+              <path id="Combined-Shape-Copy-2" d="M7.657,12.282A3.9,3.9,0,0,0,3.918,9.825,3.9,3.9,0,0,0,.179,12.282,3.172,3.172,0,0,1,0,11.229V.234Q0,.116.009,0a3.765,3.765,0,0,0,3.91,3.275A3.765,3.765,0,0,0,7.828,0q.009.116.009.234V11.229A3.172,3.172,0,0,1,7.657,12.282Z" transform="translate(6.531 19.3)" fill="#f5f5f5"/>
+              <path id="Combined-Shape-Copy" d="M7.657,12.282A3.9,3.9,0,0,0,3.918,9.825,3.9,3.9,0,0,0,.179,12.282,3.172,3.172,0,0,1,0,11.229V.234Q0,.116.009,0a3.765,3.765,0,0,0,3.91,3.275A3.765,3.765,0,0,0,7.828,0q.009.116.009.234V11.229A3.172,3.172,0,0,1,7.657,12.282Z" transform="translate(33.307 19.884)" fill="#f5f5f5"/>
+              <rect id="Rectangle-4-Copy-2" width="7.837" height="35.675" rx="3.918" transform="translate(26.776 4.094)" fill="#f5f5f5"/>
+              <rect id="Rectangle-4-Copy-6" width="7.837" height="26.318" rx="3.918" transform="translate(0 7.018)" fill="#f5f5f5"/>
+              <rect id="Rectangle-4-Copy-5" width="7.837" height="14.621" rx="3.918" transform="translate(26.776 42.693)" fill="#f5f5f5"/>
+              <rect id="Rectangle-4-Copy-4" width="7.837" height="43.863" rx="3.918" transform="translate(39.837 0.585)" fill="#f5f5f5"/>
+              <ellipse id="Oval-3" cx="1.633" cy="1.755" rx="1.633" ry="1.755" transform="translate(35.266 2.924)" fill="none" stroke="#f5f5f5" stroke-miterlimit="10" stroke-width="2.571"/>
+              <ellipse id="Oval-3-Copy" cx="1.633" cy="1.755" rx="1.633" ry="1.755" transform="translate(22.204 40.939)" fill="none" stroke="#f5f5f5" stroke-miterlimit="10" stroke-width="2.571"/>
+              <g id="Group-5" transform="translate(30.694)">
+                <path id="Path-2" d="M2.395,0,0,2.681" fill="none" stroke="#f5f5f5" stroke-miterlimit="10" stroke-width="2.571"/>
+                <path id="Path-2-Copy" d="M-2.395,0,0,2.681" transform="translate(2.395)" fill="none" stroke="#f5f5f5" stroke-miterlimit="10" stroke-width="2.571"/>
+              </g>
+              <g id="Group-5-Copy-2" transform="translate(5.878 39.769)">
+                <path id="Path-2-2" data-name="Path-2" d="M2.395,0,0,2.681" fill="none" stroke="#f5f5f5" stroke-miterlimit="10" stroke-width="2.571"/>
+                <path id="Path-2-Copy-2" data-name="Path-2-Copy" d="M-2.395,0,0,2.681" transform="translate(2.395)" fill="none" stroke="#f5f5f5" stroke-miterlimit="10" stroke-width="2.571"/>
+              </g>
+              <g id="Group-5-Copy" transform="translate(39.837 47.372)">
+                <path id="Path-2-3" data-name="Path-2" d="M2.395,0,0,2.681" fill="none" stroke="#f5f5f5" stroke-miterlimit="10" stroke-width="2.571"/>
+                <path id="Path-2-Copy-3" data-name="Path-2-Copy" d="M-2.395,0,0,2.681" transform="translate(2.395)" fill="none" stroke="#f5f5f5" stroke-miterlimit="10" stroke-width="2.571"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="discussions" transform="translate(55 21) rotate(180)">
+        <g id="Shape" transform="rotate(180)" fill="#8369c0" stroke-miterlimit="10">
+          <path d="M -37.14285659790039 32.99676132202148 L -37.14285659790039 32.0625 L -37.14285659790039 6.107140064239502 C -37.14285659790039 2.463949918746948 -34.17890930175781 -0.5 -30.53571891784668 -0.5 L -6.107138156890869 -0.5 C -2.463948249816895 -0.5 0.5000017285346985 2.463949918746948 0.5000017285346985 6.107140064239502 L 0.5000017285346985 21.375 C 0.5000017285346985 25.01819038391113 -2.463948249816895 27.98213958740234 -6.107138156890869 27.98213958740234 L -29.62092399597168 27.98213958740234 L -36.36550903320313 32.47853088378906 L -37.14285659790039 32.99676132202148 Z" stroke="none"/>
+          <path d="M -30.53571891784668 0 C -33.90990829467773 0 -36.64285659790039 2.732950210571289 -36.64285659790039 6.107139587402344 L -36.64285659790039 32.0625 L -29.77231788635254 27.48213958740234 L -6.107149124145508 27.48213958740234 C -2.732948303222656 27.48213958740234 0 24.74919891357422 0 21.375 L 0 6.107139587402344 C 0 2.732950210571289 -2.732948303222656 0 -6.107149124145508 0 L -30.53571891784668 0 M -30.53571891784668 -1 L -6.107149124145508 -1 C -2.188247680664063 -1 1 2.188249588012695 1 6.107139587402344 L 1 21.375 C 1 25.29388999938965 -2.188247680664063 28.48213958740234 -6.107149124145508 28.48213958740234 L -29.46954345703125 28.48213958740234 L -36.08815765380859 32.89455032348633 L -37.64285659790039 33.9310188293457 L -37.64285659790039 32.0625 L -37.64285659790039 6.107139587402344 C -37.64285659790039 2.188249588012695 -34.45460891723633 -1 -30.53571891784668 -1 Z" stroke="none" fill="#2c2245"/>
+        </g>
+        <path id="Combined_Shape" data-name="Combined Shape" d="M-4.551,27.282A6.109,6.109,0,0,0,0,21.375V6.107A6.114,6.114,0,0,0-6.107,0H-30.536A6.117,6.117,0,0,0-36.63,5.708a5.869,5.869,0,0,1,5.523-3.9H-7.669A5.866,5.866,0,0,1-1.81,7.669V22.317a5.834,5.834,0,0,1-2.742,4.963Z" transform="rotate(180)" fill="#735ea7"/>
+        <g id="Path" transform="translate(16.795 -18.321) rotate(180)" fill="none" stroke-miterlimit="10">
+          <path d="M-13.741,1.527H0V0H-13.741Z" stroke="none"/>
+          <path d="M 4.149474989390001e-06 1.526782870292664 L -13.74107551574707 1.526782870292664 L -13.74107551574707 2.865657734218985e-06 L 4.149474989390001e-06 2.865657734218985e-06 L 4.149474989390001e-06 1.526782870292664 Z" stroke="none" fill="#eee6ff"/>
+        </g>
+        <g id="Path-2-4" data-name="Path" transform="translate(6.107 -12.214) rotate(180)" fill="none" stroke-miterlimit="10">
+          <path d="M-24.429,1.527H0V0H-24.429Z" stroke="none"/>
+          <path d="M 4.149474989390001e-06 1.526782870292664 L -24.42857551574707 1.526782870292664 L -24.42857551574707 2.865657734218985e-06 L 4.149474989390001e-06 2.865657734218985e-06 L 4.149474989390001e-06 1.526782870292664 Z" stroke="none" fill="#eee6ff"/>
+        </g>
+        <g id="Path-3" data-name="Path" transform="translate(6.107 -6.107) rotate(180)" fill="none" stroke-miterlimit="10">
+          <path d="M-24.429,1.527H0V0H-24.429Z" stroke="none"/>
+          <path d="M 4.149474989390001e-06 1.526782870292664 L -24.42857551574707 1.526782870292664 L -24.42857551574707 2.865657734218985e-06 L 4.149474989390001e-06 2.865657734218985e-06 L 4.149474989390001e-06 1.526782870292664 Z" stroke="none" fill="#eee6ff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

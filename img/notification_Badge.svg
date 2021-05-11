@@ -1,0 +1,15 @@
+<svg id="notification_Badge" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="44" height="44" viewBox="0 0 44 44">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Mask" width="44" height="44" rx="22" fill="gray"/>
+    </clipPath>
+  </defs>
+  <rect id="Mask-2" data-name="Mask" width="44" height="44" rx="22" fill="gray"/>
+  <g id="Team_Badge" data-name="Team Badge" clip-path="url(#clip-path)">
+    <g id="Color_Brand" data-name="Color / Brand">
+      <rect id="Color_Brand_background" data-name="Color / Brand background" width="44" height="44" fill="rgba(0,0,0,0)"/>
+      <rect id="Color_Primary" data-name="Color / Primary" width="44" height="44" fill="#2c2d30"/>
+    </g>
+    <text id="_" data-name="" transform="translate(12 11)" fill="#fff" font-size="20" font-family="LineAwesome"><tspan x="0" y="18"></tspan></text>
+  </g>
+</svg>
